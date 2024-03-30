@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="electrical_connections">
+    <title>Electrical Connections</title>
+    <taskbody>
+        <context>
+            <p>Perform the following instructions to setup the electrical connections for peripheral
+                devices attaching to the <ph keyref="computer_name"/>computer.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Turn the <ph keyref="computer_name"/> so that it faces away from you. Locate
+                    the port Door (<ph conref="parts_list.dita#parts_list/ph_zdl_vwg_x1c"/>); it's
+                    at the right end of the rear panel.</cmd>
+            </step>
+            <step>
+                <cmd>To remove the Door, raise it up and slide it to the right—then lift it up and
+                    away from the <ph keyref="computer_name"/></cmd>
+            </step>
+            <step>
+                <cmd>Place the <ph keyref="computer_name"/> and <ph keyref="peripheral_name"/> Hoods
+                        (<ph conref="parts_list.dita#parts_list/ph_dns_wzg_x1c"/> and <ph
+                        conref="parts_list.dita#parts_list/ph_tth_zzg_x1c"/> ) on the Ribbon Cable
+                    Connectors as shown in Figure 4. The Hoods replace the Door on the <ph
+                        keyref="computer_name"/> and fill the opening on the <ph
+                        keyref="peripheral_name"/>. These Hoods are designed so that it is not
+                    possible to insert the connectors upside down. They function as keyways for the
+                    connectors.</cmd>
+            </step>
+            <step>
+                <cmd>Now connect the Ribbon Cable between the left front Expansion Interface port
+                    and the <ph keyref="computer_name"/> port.</cmd>
+            </step>
+            <step>
+                <cmd>Connect the DC Power Cord (DIN connector) to the POWER connector on the right
+                    rear of the <ph keyref="computer_name"/> and connect both AC Power Cords to
+                    standard 120 VAC outlets.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

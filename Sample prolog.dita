@@ -1,0 +1,91 @@
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_windows_dir_command">
+  <title>Windows dir Command</title>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>Windows dir command</indexterm>
+        <indexterm>list of files</indexterm>
+        <indexterm>subdirectories</indexterm>
+        <indexterm>directory</indexterm>
+        <indexterm>built-in command</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>The Windows dir command is used to display a list of files and subdirectories in a directory. It is a built-in command in the Windows operating system.</p>
+    
+    <section>
+      <title>Syntax</title>
+      <p>The syntax of the dir command is as follows:</p>
+      <pre>
+        <code>dir [drive:][path][filename] [/A[[:]attributes]] [/B] [/C] [/D] [/L] [/N] [/O[[:]sortorder]] [/P] [/Q] [/R] [/S] [/T[[:]timefield]] [/W] [/X] [/4]</code>
+      </pre>
+      <p>Where:</p>
+      <ul>
+        <li><code>[drive:][path][filename]</code> specifies the location and name of the file or directory to list. If no location is specified, the current directory is used.</li>
+        <li><code>/A[[:]attributes]</code> displays files with the specified attributes. The attributes can be any combination of the following:</li>
+        <ul>
+          <li><code>D</code> - Directories</li>
+          <li><code>R</code> - Read-only files</li>
+          <li><code>H</code> - Hidden files</li>
+          <li><code>A</code> - Files ready for archiving</li>
+          <li><code>S</code> - System files</li>
+          <li><code>I</code> - Not content indexed files</li>
+          <li><code>L</code> - Reparse points</li>
+          <li><code>O</code> - Offline files</li>
+          <li><code>P</code> - Sparse files</li>
+          <li><code>T</code> - Temporary files</li>
+        </ul>
+        <li><code>/B</code> uses bare format (no heading information or summary).</li>
+        <li><code>/C</code> displays the thousand separator in file sizes. This is the default.</li>
+        <li><code>/D</code> displays the date in the short format specified in the Regional Settings of your computer.</li>
+        <li><code>/L</code> displays the names of the files in lowercase.</li>
+        <li><code>/N</code> displays long file names in a directory listing as they are entered.</li>
+        <li><code>/O[[:]sortorder]</code> sorts the files in the directory. The sortorder can be any combination of the following:</li>
+        <ul>
+          <li><code>N</code> - By name (alphabetical)</li>
+          <li><code>S</code> - By size (smallest to largest)</li>
+          <li><code>E</code> - By extension (alphabetical)</li>
+          <li><code>D</code> - By date and time (oldest to newest)</li>
+          <li><code>G</code> - Group directories first, then files</li>
+          <li><code>-N</code> - By name (reverse alphabetical)</li>
+          <li><code>-S</code> - By size (largest to smallest)</li>
+          <li><code>-E</code> - By extension (reverse alphabetical)</li>
+          <li><code>-D</code> - By date and time (newest to oldest)</li>
+          <li><code>-G</code> - Group files first, then directories</li>
+        </ul>
+        <li><code>/P</code> pauses after each screenful of information.</li>
+        <li><code>/Q</code> displays the owner of the file.</li>
+        <li><code>/R</code> displays alternate data streams of the file.</li>
+        <li><code>/S</code> displays files in specified directory and all subdirectories.</li>
+        <li><code>/T[[:]timefield]</code> displays the time in the format specified in the Regional Settings of your computer. The timefield can be any combination of the following:</li>
+        <ul>
+          <li><code>C</code> - Creation</li>
+          <li><code>A</code> - Last access</li>
+          <li><code>W</code> - Last written</li>
+        </ul>
+        <li><code>/W</code> uses wide list format.</li>
+        <li><code>/X</code> displays the short names generated for non-8dot3 file names.</li>
+        <li><code>/4</code> displays four-digit years.</li>
+      </ul>
+    </section>
+    
+    <section>
+      <title>Examples</title>
+      <p>Here are some examples of using the dir command:</p>
+      <pre>
+        <code>dir</code>
+        <code>dir C:\Windows</code>
+        <code>dir /A:D</code>
+        <code>dir /S /B</code>
+        <code>dir /O:N /P</code>
+      </pre>
+    </section>
+    
+    <section>
+      <title>Additional Information</title>
+      <p>For more information about the dir command, refer to the Windows documentation or run <code>dir /?</code> in the command prompt.</p>
+    </section>
+  </body>
+</topic>

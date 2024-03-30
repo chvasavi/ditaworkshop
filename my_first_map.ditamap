@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>My First Ditamap</title>
+    <topicgroup>
+        <topichead navtitle="Nav1">
+            <topicref href="cd_reference.dita"/>
+            <topicref href="my_first_concept.dita"/>
+            <topicref href="building_bird_house_task.dita"/>
+        </topichead>
+    </topicgroup>
+</map>

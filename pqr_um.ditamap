@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>PQR UM</title>
+    <topicgroup keyscope="PQR Keys">
+        <topicmeta>
+            <navtitle>PQR Keys</navtitle>
+        </topicmeta>
+        <keydef keys="product1_name">
+            <topicmeta>
+                <keywords>
+                    <keyword>PQR</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="product_version">
+            <topicmeta>
+                <keywords>
+                    <keyword>1.0.0</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="product2_name">
+            <topicmeta>
+                <keywords>
+                    <keyword>ABC</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </topicgroup>
+    <topicref href="introduction.dita"/>
+    <topicref href="variables_dita.dita" processing-role="resource-only" toc="no"/>
+    <topicref href="pencil_types.dita"/>
+</map>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Sample Bookmap</mainbooktitle>
+    </booktitle>
+    <frontmatter>
+        <preface/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <part>
+        <chapter/>
+        <chapter/>
+    </part>
+    <appendices>
+        <appendix/>
+    </appendices>
+    <backmatter/>
+</bookmap>

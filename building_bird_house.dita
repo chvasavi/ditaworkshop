@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="building_bird_house">
+    <title>Building Bird House</title>
+    <shortdesc>Building a birdhouse is a perfect activity for everyone in a family.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_ptp_p4v_r1c">To build a birdhouse, you will need:<ul id="ul_pvv_v4v_r1c">
+                <li>Pieces of wood</li>
+                <li>Set of tools</li>
+            </ul></prereq>
+        <context>
+            <p>Birdhouses provide safe location for birds to build nests and raise their young.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Lay out the dimensions for the birdhouse elements.</cmd>
+            </step>
+            <step>
+                <cmd>Cut the elements to size.</cmd>
+            </step>
+            <step>
+                <cmd>Drill a 1 ½" diameter hole for the bird entrance on the front.</cmd>
+                <info>You need to look at the drawing for the correct placement of the bird
+                    entrance.</info>
+            </step>
+            <step>
+                <cmd>Join all the elements as per the drawing. You can choose any one of the
+                    following options:</cmd>
+                <choicetable frame="all" id="choicetable_rlv_1rv_r1c">
+                    <chrow>
+                        <choption>Nail</choption>
+                        <chdesc>You may need a hammer to push the nails in the wood.<note
+                                id="note_ctf_grv_r1c" type="attention">Use the nail and hammer
+                                carefully to avoid any injuies.</note></chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Super Glue</choption>
+                        <chdesc>Using a Super Glue is quick and easy.<note id="note_dlz_jrv_r1c"
+                                type="attention">Do not spill the Super Glue and avoid physical
+                                contact. </note></chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption/>
+                        <chdesc>Use ½" hinges. For shopping hinges online, see <xref
+                                href="https://www.google.com/search?sca_esv=8b94fdf9c54254b4&amp;rlz=1C1GCEA_enIN1010IN1010&amp;sxsrf=ACQVn0-oiRzlOVCUYYCtnXWdahZu_GqObg:1710055208422&amp;q=1/2+inch+hinges&amp;tbm=shop&amp;source=lnms&amp;biw=1366&amp;bih=617&amp;dpr=1"
+                                format="html" scope="external">shopping ½"  hinges on
+                            Google.</xref></chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+        </steps>
+        <result id="result_sbr_hsv_r1c">You now have a beautiful new birdhouse.</result>
+        <postreq id="postreq_cwn_jsv_r1c">Find a good place to mount the bird house.</postreq>
+    </taskbody>
+</task>
