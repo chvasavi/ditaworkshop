@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="domain_elements">
+    <title>Domain elements</title>
+    <shortdesc>The <i>domain elements</i> are comprised of a number of separate sets of elements
+        that relate to specific documentation fields.</shortdesc>
+    <conbody>
+        <p>Remembering that <ph keyref="name"/> started life within IBM as a tool for creating
+            software and hardware documentation, it shouldn't be a surprise to discover that DITA's
+            base elements reflect that background.</p>
+        <p>Elements that relate to a particular field (such as software) are called <i>domain
+                elements</i>. The domain elements within DITA are grouped into:</p>
+        <dl id="dl_smy_wgn_x1c">
+            <dlentry>
+                <dt><b>typographical elements</b></dt>
+                <dd>
+                    <p>generic word-processor like elements used to highlight text</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <dl id="dl_qsc_zgn_x1c">
+            <dlentry>
+                <dt><b>programming elements</b></dt>
+                <dd>
+                    <p>terms and structures related to programming environments</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <dl id="dl_vkf_1hn_x1c">
+            <dlentry>
+                <dt><b>software elements</b></dt>
+                <dd>
+                    <p>terms and structures related to the operation of a software program</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <dl id="dl_agw_bhn_x1c">
+            <dlentry>
+                <dt><b>table elements</b></dt>
+                <dd>
+                    <p>elements that relate to table structures</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <dl id="dl_ygb_dhn_x1c">
+            <dlentry>
+                <dt><b>user interface elements</b></dt>
+                <dd>
+                    <p>terms and structures related to a software user interface</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <dl id="dl_fq2_2hn_x1c">
+            <dlentry>
+                <dt><b>utilities elements</b></dt>
+                <dd>
+                    <p>elements that don't fit anywhere else!</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <p>If you are writing a programmer's reference, you will mainly use elements in the
+            programming domain.</p>
+        <p>If you are writing a mobile phone user guide, you should avoid using programming domain
+            elements, and mainly use user interface domain elements.</p>
+        <p>The typographical domain elements are designed to be used only when <b>no
+                semantically-appropriate elements are available</b> and a formatting effect is
+            required. These elements should therefore only be used as a last resort.</p>
+    </conbody>
+</concept>

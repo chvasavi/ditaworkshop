@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Radio Shack TRS-80 Expansion Interface: Operator's Manual</title>
+    <topicref href="introduction_1.dita">
+        <topicref href="electrical_connections.dita"/>
+        <topicref href="parts_list.dita"/>
+    </topicref>
+    <topicgroup collection-type="family" audience="expert novice" processing-role="resource-only">
+        <topicmeta>
+            <navtitle>Keys</navtitle>
+        </topicmeta>
+        <keydef keys="company_name">
+            <topicmeta>
+                <keywords>
+                    <keyword>Radio Shack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="computer_name">
+            <topicmeta>
+                <keywords>
+                    <keyword>TRS-80</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="peripheral_name">
+            <topicmeta>
+                <keywords>
+                    <keyword>Expansion Interface</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </topicgroup>
+</map>

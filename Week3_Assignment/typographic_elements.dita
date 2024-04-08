@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="typographic_elements">
+    <title>Typographic elements</title>
+    <shortdesc>The typographic domain elements each have a specific styling purpose.</shortdesc>
+    <conbody>
+        <dl id="dl_lb5_125_z1c">
+            <dlentry>
+                <dt>b</dt>
+                <dd>bold (strong)<p><ph keyref="Example"/> Click <b>Submit</b> to submit the
+                        form.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>i</dt>
+                <dd>italic (emphasis)<p><ph keyref="Example"/> Unplug the unit <i>before</i> placing
+                        the metal screwdriver against the terminal screw.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>u</dt>
+                <dd>underlined<p><ph keyref="Example"/> Beaware: <u>Overuse</u>
+                        <i>of</i>
+                        <b>highlighting</b> is sometimes known as fonr-itis!</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>tt</dt>
+                <dd>teletype (typewriter)<p><ph keyref="Example"/> Make sure that the screen
+                        displays <tt>File successfully created</tt> before proceeding to the next
+                        stage of the task.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>sup</dt>
+                <dd>superscript<p><ph keyref="Example"/> The is a product with its trademark:
+                            XYZ<sup>TM</sup>.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>sub</dt>
+                <dd>subscript<p><ph keyref="Example"/> The chemical formula of water is:
+                            H<sub>2</sub>O.</p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

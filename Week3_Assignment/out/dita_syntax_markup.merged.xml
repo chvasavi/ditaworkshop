@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/ashes/ashes-with-colors.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/ashes/notes.css'?>
+<map xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:xs="http://www.w3.org/2001/XMLSchema" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="map:1;3:6" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/dita_syntax_markup.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><title xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">Dita_Syntax_Markup</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
+    <title class="- topic/title ">Dita_Syntax_Markup</title>
+    
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="introduction_to_dita"><resourceid appid="introduction_to_dita" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Introduction to <ph class="- topic/ph " keyref="name" xtrc="ph:1;4:47" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/introduction_to_dita.dita">DITA</ph></navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_2" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="organization_of_dita_elements"><resourceid appid="organization_of_dita_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Organization of <ph class="- topic/ph " keyref="name" xtrc="ph:1;4:47" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/organization_of_dita_elements.dita">DITA</ph> elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Elements in <ph class="- topic/ph " keyref="name">DITA</ph> are grouped together into a number of categories for         organizational and comprehension purposes.</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_3" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="topic_elements"><resourceid appid="topic_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Topic elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The <i class="+ topic/ph hi-d/i ">topic elements</i> are the basic structural building blocks of all information         types.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_4" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="map_elements"><resourceid appid="map_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">Map elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The <i class="+ topic/ph hi-d/i ">map elements</i> are the elements used in ditamaps and bookmaps.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_5" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="body_elements"><resourceid appid="body_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Body elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The simple block structures within the body of topics are categorized as the <i class="+ topic/ph hi-d/i ">body             elements</i>.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_6" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="prolog_elements"><resourceid appid="prolog_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">Prolog elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">A topic's metadata is stored in a range of <i class="+ topic/ph hi-d/i ">prolog elements</i>.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_7" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="domain_elements"><resourceid appid="domain_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">Domain elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</shortdesc></topicmeta><topicref class="- map/topicref " href="#unique_8" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="programming_domain_elements"><resourceid appid="programming_domain_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">Programming domain elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The elements in the programming domain each have a specific semantic         purpose.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_9" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="user_interface_domain_elements"><resourceid appid="user_interface_domain_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">User interface domain elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The elements in the user interface domain each have a specific semantic purpose. </shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_10" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="software_domain_elements"><resourceid appid="software_domain_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_10" class="- topic/navtitle ">Software domain elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The elements in the software domain each have a specific semantic         purpose.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_11" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="utilities_domain_elements"><resourceid appid="utilities_domain_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_11" class="- topic/navtitle ">Utilities domain elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The elements in the utilities domain each have a specific purpose in defining image         map properties.</shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_12" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="metadata_domain_elements"><resourceid appid="metadata_domain_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_12" class="- topic/navtitle ">Metadata domain elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref><topicref class="- map/topicref " href="#unique_13" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="typographic_elements"><resourceid appid="typographic_elements" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_13" class="- topic/navtitle ">Typographic elements</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref></topicref></topicref>
+    
+</opentopic:map><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="introduction_to_dita" oid="introduction_to_dita" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Introduction to <ph class="- topic/ph " keyref="name">DITA</ph></ph></title>
+    <conbody class="- topic/body  concept/conbody "><section class="- topic/section ">
+        <p class="- topic/p ">The Darwin Information Typing Architecture (<ph class="- topic/ph " keyref="name">DITA</ph>) is an XML-based
+                architecture for authoring, producing, and delivering topic-oriented,
+                information-typed content that can be reused and single-sourced in a variety of
+                ways. While <ph class="- topic/ph " keyref="name">DITA</ph> historically has been driven by the requirements of
+                large-scale technical documentation authoring, management, and delivery, it is a
+                standard that is applicable to any kind of publication or information that might be
+                presented to readers, including interactive training and educational materials,
+                standards, reports, business documents, trade books, travel and nature guides, and
+                more.</p>
+        <p class="- topic/p "><ph class="- topic/ph " keyref="name">DITA</ph> is designed for creating new document types and describing new
+                information domains based on existing types and domains. The process for creating
+                new types and domains is called specialization. Specialization enables the creation
+                of specific, targeted XML grammars that can still use tools and design rules that
+                were developed for more general types and domains; this is similar to how classes in
+                an object-oriented system can inherit the methods of ancestor classes.</p>
+        <p class="- topic/p ">Because <ph class="- topic/ph " keyref="name">DITA</ph> topics are conforming XML documents, they can be readily
+                viewed, edited, and validated using standard XML tools, although realizing the full
+                potential of <ph class="- topic/ph " keyref="name">DITA</ph> requires using <ph class="- topic/ph " keyref="name">DITA</ph>-aware tools.</p>
+    </section></conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_2" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Organization of DITA elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Elements in <ph class="- topic/ph " keyref="name">DITA</ph> are grouped together into a number of categories for         organizational and comprehension purposes.</desc></link></linkpool></related-links></concept><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_2" topicrefclass="- map/topicref " nd:nd-id="organization_of_dita_elements" oid="organization_of_dita_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Organization of <ph class="- topic/ph " keyref="name">DITA</ph> elements</ph></title>
+    <shortdesc class="- topic/shortdesc ">Elements in <ph class="- topic/ph " keyref="name">DITA</ph> are grouped together into a number of categories for
+        organizational and comprehension purposes.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "><ph class="- topic/ph " keyref="name">DITA</ph> elements can be broadly categorized as follows:</p>
+        <ul class="- topic/ul " id="unique_2_Connect_42_ul_jt1_d1n_x1c" nd:nd-id="ul_jt1_d1n_x1c">
+            <li class="- topic/li ">topic elements</li>
+            <li class="- topic/li ">map elements</li>
+            <li class="- topic/li ">body elements</li>
+            <li class="- topic/li ">prolog elements</li>
+            <li class="- topic/li ">domain elements</li>
+            <li class="- topic/li ">specialisation elements</li>
+        </ul>
+        <p class="- topic/p ">In fact, this is how the <i class="+ topic/ph hi-d/i "><ph class="- topic/ph " keyref="name">DITA</ph> Language Reference</i> groups <ph class="- topic/ph " keyref="name">DITA</ph> elements. This categorization of the various elements is partly to
+            aid understanding, and partly to make it technically easier for the schema files (DTD
+            and XSD) to be managed.</p>
+        <p class="- topic/p ">Elements used within topics can also be differently categorized as block or phrase
+            elements.</p>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_1" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Introduction to DITA</linktext></link></linkpool><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_3" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Topic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">topic elements</i> are the basic structural building blocks of all information         types.</desc></link><link class="- topic/link " format="dita" href="#unique_4" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Map elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">map elements</i> are the elements used in ditamaps and bookmaps.</desc></link><link class="- topic/link " format="dita" href="#unique_5" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Body elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The simple block structures within the body of topics are categorized as the <i class="+ topic/ph hi-d/i ">body             elements</i>.</desc></link><link class="- topic/link " format="dita" href="#unique_6" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Prolog elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">A topic's metadata is stored in a range of <i class="+ topic/ph hi-d/i ">prolog elements</i>.</desc></link><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link></linkpool></related-links><concept class="- topic/topic concept/concept " id="unique_3" topicrefclass="- map/topicref " nd:nd-id="topic_elements" oid="topic_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Topic elements</ph></title>
+    <shortdesc class="- topic/shortdesc ">The <i class="+ topic/ph hi-d/i ">topic elements</i> are the basic structural building blocks of all information
+        types.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The topic elements are the main structural elements of topics. Some topic elements are
+            generic (i.e., inherited from the <i class="+ topic/ph hi-d/i ">topic</i> proto information type), while others are
+            specific to the concept, task or reference information types.</p>
+        <p class="- topic/p ">Examples of topic elements include:<ul class="- topic/ul " id="unique_3_Connect_42_ul_gx5_wcn_x1c" nd:nd-id="ul_gx5_wcn_x1c">
+                <li class="- topic/li ">topic (and concept, task, reference)</li>
+                <li class="- topic/li ">titlealts</li>
+                <li class="- topic/li ">shortdesc</li>
+                <li class="- topic/li ">body (and refbody, conbody, taskbody)</li>
+                <li class="- topic/li ">section</li>
+                <li class="- topic/li ">example</li>
+                <li class="- topic/li ">related-links</li>
+            </ul></p>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_2" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Organization of DITA elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Elements in <ph class="- topic/ph " keyref="name">DITA</ph> are grouped together into a number of categories for         organizational and comprehension purposes.</desc></link></linkpool><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_4" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Map elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">map elements</i> are the elements used in ditamaps and bookmaps.</desc></link><link class="- topic/link " format="dita" href="#unique_5" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Body elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The simple block structures within the body of topics are categorized as the <i class="+ topic/ph hi-d/i ">body             elements</i>.</desc></link><link class="- topic/link " format="dita" href="#unique_6" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Prolog elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">A topic's metadata is stored in a range of <i class="+ topic/ph hi-d/i ">prolog elements</i>.</desc></link><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link></linkpool></related-links></concept><concept class="- topic/topic concept/concept " id="unique_4" topicrefclass="- map/topicref " nd:nd-id="map_elements" oid="map_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Map elements</ph></title>
+    <shortdesc class="- topic/shortdesc ">The <i class="+ topic/ph hi-d/i ">map elements</i> are the elements used in ditamaps and bookmaps.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The map elements are a small set of elements, some of which have been specialised into
+            other elements for use in bookmaps.</p>
+        <p class="- topic/p ">The map elements include:</p>
+        <ul class="- topic/ul " id="unique_4_Connect_42_ul_sn4_ldn_x1c" nd:nd-id="ul_sn4_ldn_x1c">
+            <li class="- topic/li ">map</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_4_Connect_42_ul_om1_ggn_x1c" nd:nd-id="ul_om1_ggn_x1c">
+            <li class="- topic/li ">topicref</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_4_Connect_42_ul_qhs_ggn_x1c" nd:nd-id="ul_qhs_ggn_x1c">
+            <li class="- topic/li ">topicmeta</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_4_Connect_42_ul_vb2_3gn_x1c" nd:nd-id="ul_vb2_3gn_x1c">
+            <li class="- topic/li ">topicgroup</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_4_Connect_42_ul_ogt_3gn_x1c" nd:nd-id="ul_ogt_3gn_x1c">
+            <li class="- topic/li ">topichead</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_4_Connect_42_ul_iwf_jgn_x1c" nd:nd-id="ul_iwf_jgn_x1c">
+            <li class="- topic/li ">reltable</li>
+        </ul>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_2" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Organization of DITA elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Elements in <ph class="- topic/ph " keyref="name">DITA</ph> are grouped together into a number of categories for         organizational and comprehension purposes.</desc></link></linkpool><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_3" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Topic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">topic elements</i> are the basic structural building blocks of all information         types.</desc></link><link class="- topic/link " format="dita" href="#unique_5" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Body elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The simple block structures within the body of topics are categorized as the <i class="+ topic/ph hi-d/i ">body             elements</i>.</desc></link><link class="- topic/link " format="dita" href="#unique_6" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Prolog elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">A topic's metadata is stored in a range of <i class="+ topic/ph hi-d/i ">prolog elements</i>.</desc></link><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link></linkpool></related-links></concept><concept class="- topic/topic concept/concept " id="unique_5" topicrefclass="- map/topicref " nd:nd-id="body_elements" oid="body_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Body elements</ph></title>
+    <shortdesc class="- topic/shortdesc ">The simple block structures within the body of topics are categorized as the <i class="+ topic/ph hi-d/i ">body
+            elements</i>.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Body elements are the most common content authoring block elements, and include:</p>
+        <ul class="- topic/ul " id="unique_5_Connect_42_ul_qgh_sdn_x1c" nd:nd-id="ul_qgh_sdn_x1c">
+            <li class="- topic/li ">paragraph</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_5_Connect_42_ul_wj2_dgn_x1c" nd:nd-id="ul_wj2_dgn_x1c">
+            <li class="- topic/li ">list</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_5_Connect_42_ul_xql_dgn_x1c" nd:nd-id="ul_xql_dgn_x1c">
+            <li class="- topic/li ">phrase</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_5_Connect_42_ul_rwy_dgn_x1c" nd:nd-id="ul_rwy_dgn_x1c">
+            <li class="- topic/li ">figure</li>
+        </ul>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_2" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Organization of DITA elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Elements in <ph class="- topic/ph " keyref="name">DITA</ph> are grouped together into a number of categories for         organizational and comprehension purposes.</desc></link></linkpool><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_3" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Topic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">topic elements</i> are the basic structural building blocks of all information         types.</desc></link><link class="- topic/link " format="dita" href="#unique_4" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Map elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">map elements</i> are the elements used in ditamaps and bookmaps.</desc></link><link class="- topic/link " format="dita" href="#unique_6" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Prolog elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">A topic's metadata is stored in a range of <i class="+ topic/ph hi-d/i ">prolog elements</i>.</desc></link><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link></linkpool></related-links></concept><concept class="- topic/topic concept/concept " id="unique_6" topicrefclass="- map/topicref " nd:nd-id="prolog_elements" oid="prolog_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Prolog elements</ph></title>
+    <shortdesc class="- topic/shortdesc ">A topic's metadata is stored in a range of <i class="+ topic/ph hi-d/i ">prolog elements</i>.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The <ph class="- topic/ph " keyref="name">DITA</ph> prolog elements contain the main metadata for a topic or
+            collection.</p>
+        <p class="- topic/p ">The types of information recorded in the prolog include:</p>
+        <ul class="- topic/ul " id="unique_6_Connect_42_ul_zvh_42n_x1c" nd:nd-id="ul_zvh_42n_x1c">
+            <li class="- topic/li ">author</li>
+        </ul>
+        <ul class="- topic/ul ">
+            <li class="- topic/li ">copyright information</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_6_Connect_42_ul_lzk_t2n_x1c" nd:nd-id="ul_lzk_t2n_x1c">
+            <li class="- topic/li ">critical tracking dates</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_6_Connect_42_ul_idj_v2n_x1c" nd:nd-id="ul_idj_v2n_x1c">
+            <li class="- topic/li ">permissions for use/management of the content</li>
+        </ul>
+        <ul class="- topic/ul " id="unique_6_Connect_42_ul_zwh_w2n_x1c" nd:nd-id="ul_zwh_w2n_x1c">
+            <li class="- topic/li ">extensive metadata about the content of the document</li>
+        </ul>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_2" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Organization of DITA elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Elements in <ph class="- topic/ph " keyref="name">DITA</ph> are grouped together into a number of categories for         organizational and comprehension purposes.</desc></link></linkpool><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_3" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Topic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">topic elements</i> are the basic structural building blocks of all information         types.</desc></link><link class="- topic/link " format="dita" href="#unique_4" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Map elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">map elements</i> are the elements used in ditamaps and bookmaps.</desc></link><link class="- topic/link " format="dita" href="#unique_5" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Body elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The simple block structures within the body of topics are categorized as the <i class="+ topic/ph hi-d/i ">body             elements</i>.</desc></link><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link></linkpool></related-links></concept><concept class="- topic/topic concept/concept " id="unique_7" topicrefclass="- map/topicref " nd:nd-id="domain_elements" oid="domain_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Domain elements</ph></title>
+    <shortdesc class="- topic/shortdesc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements
+        that relate to specific documentation fields.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Remembering that <ph class="- topic/ph " keyref="name">DITA</ph> started life within IBM as a tool for creating
+            software and hardware documentation, it shouldn't be a surprise to discover that DITA's
+            base elements reflect that background.</p>
+        <p class="- topic/p ">Elements that relate to a particular field (such as software) are called <i class="+ topic/ph hi-d/i ">domain
+                elements</i>. The domain elements within DITA are grouped into:</p>
+        <dl class="- topic/dl " id="unique_7_Connect_42_dl_smy_wgn_x1c" nd:nd-id="dl_smy_wgn_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt "><b class="+ topic/ph hi-d/b ">typographical elements</b></dt>
+                <dd class="- topic/dd ">
+                    <p class="- topic/p ">generic word-processor like elements used to highlight text</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <dl class="- topic/dl " id="unique_7_Connect_42_dl_qsc_zgn_x1c" nd:nd-id="dl_qsc_zgn_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt "><b class="+ topic/ph hi-d/b ">programming elements</b></dt>
+                <dd class="- topic/dd ">
+                    <p class="- topic/p ">terms and structures related to programming environments</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <dl class="- topic/dl " id="unique_7_Connect_42_dl_vkf_1hn_x1c" nd:nd-id="dl_vkf_1hn_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt "><b class="+ topic/ph hi-d/b ">software elements</b></dt>
+                <dd class="- topic/dd ">
+                    <p class="- topic/p ">terms and structures related to the operation of a software program</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <dl class="- topic/dl " id="unique_7_Connect_42_dl_agw_bhn_x1c" nd:nd-id="dl_agw_bhn_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt "><b class="+ topic/ph hi-d/b ">table elements</b></dt>
+                <dd class="- topic/dd ">
+                    <p class="- topic/p ">elements that relate to table structures</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <dl class="- topic/dl " id="unique_7_Connect_42_dl_ygb_dhn_x1c" nd:nd-id="dl_ygb_dhn_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt "><b class="+ topic/ph hi-d/b ">user interface elements</b></dt>
+                <dd class="- topic/dd ">
+                    <p class="- topic/p ">terms and structures related to a software user interface</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <dl class="- topic/dl " id="unique_7_Connect_42_dl_fq2_2hn_x1c" nd:nd-id="dl_fq2_2hn_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt "><b class="+ topic/ph hi-d/b ">utilities elements</b></dt>
+                <dd class="- topic/dd ">
+                    <p class="- topic/p ">elements that don't fit anywhere else!</p>
+                </dd>
+            </dlentry>
+        </dl>
+        <p class="- topic/p ">If you are writing a programmer's reference, you will mainly use elements in the
+            programming domain.</p>
+        <p class="- topic/p ">If you are writing a mobile phone user guide, you should avoid using programming domain
+            elements, and mainly use user interface domain elements.</p>
+        <p class="- topic/p ">The typographical domain elements are designed to be used only when <b class="+ topic/ph hi-d/b ">no
+                semantically-appropriate elements are available</b> and a formatting effect is
+            required. These elements should therefore only be used as a last resort.</p>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_2" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Organization of DITA elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">Elements in <ph class="- topic/ph " keyref="name">DITA</ph> are grouped together into a number of categories for         organizational and comprehension purposes.</desc></link></linkpool><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_3" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Topic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">topic elements</i> are the basic structural building blocks of all information         types.</desc></link><link class="- topic/link " format="dita" href="#unique_4" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Map elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">map elements</i> are the elements used in ditamaps and bookmaps.</desc></link><link class="- topic/link " format="dita" href="#unique_5" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Body elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The simple block structures within the body of topics are categorized as the <i class="+ topic/ph hi-d/i ">body             elements</i>.</desc></link><link class="- topic/link " format="dita" href="#unique_6" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Prolog elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">A topic's metadata is stored in a range of <i class="+ topic/ph hi-d/i ">prolog elements</i>.</desc></link></linkpool><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_8" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Programming domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the programming domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_9" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>User interface domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the user interface domain each have a specific semantic purpose. </desc></link><link class="- topic/link " format="dita" href="#unique_10" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Software domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the software domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_11" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Utilities domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the utilities domain each have a specific purpose in defining image         map properties.</desc></link><link class="- topic/link " format="dita" href="#unique_12" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Metadata domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link><link class="- topic/link " format="dita" href="#unique_13" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Typographic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link></linkpool></related-links><concept class="- topic/topic concept/concept " id="unique_8" topicrefclass="- map/topicref " nd:nd-id="programming_domain_elements" oid="programming_domain_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Programming domain elements</ph></title>
+    <shortdesc class="- topic/shortdesc ">The elements in the programming domain each have a specific semantic
+        purpose.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Here is a list of elements, their semantic purposes, and an example for each.</p>
+        <dl class="- topic/dl ">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">apiname</dt>
+                <dd class="- topic/dd ">API name<p class="- topic/p ">Example: <apiname class="+ topic/keyword pr-d/apiname ">Google Maps</apiname></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">codeblock</dt>
+                <dd class="- topic/dd ">code block<p class="- topic/p ">Example:
+                        <codeblock class="+ topic/pre pr-d/codeblock " id="unique_8_Connect_42_codeblock_wf4_m14_x1c" nd:nd-id="codeblock_wf4_m14_x1c" xml:space="preserve">dir /s/w/o/p/a:-d</codeblock></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">codeph</dt>
+                <dd class="- topic/dd ">code phrase<p class="- topic/p ">Example: <codeph class="+ topic/ph pr-d/codeph ">dir read *.*</codeph>lists all files in the
+                        current directory that begin with read with any extension.</p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">option</dt>
+                <dd class="- topic/dd ">one of a set of options<p class="- topic/p ">Example: Topic can be a concept, or a task, or a
+                        reference. Let's prefer <option class="+ topic/keyword pr-d/option ">task</option> option here.</p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">parmname</dt>
+                <dd class="- topic/dd ">parameter or argument<p class="- topic/p ">Example: Use the <parmname class="+ topic/keyword pr-d/parmname ">env</parmname> parameter of
+                        the "config" command to update to update a field value.</p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry " id="unique_8_Connect_42_dlentry_ewl_gtj_z1c" nd:nd-id="dlentry_ewl_gtj_z1c">
+                <dt class="- topic/dt ">parml</dt>
+                <dd class="- topic/dd ">parameter list<p class="- topic/p ">Example: <parml class="+ topic/dl pr-d/parml " id="unique_8_Connect_42_parml_ggv_xd4_x1c" nd:nd-id="parml_ggv_xd4_x1c">
+                            <plentry class="+ topic/dlentry pr-d/plentry ">
+                                <pt class="+ topic/dt pr-d/pt ">parameter_1</pt>
+                                <pd class="+ topic/dd pr-d/pd ">This is the first parameter in the parameter list.</pd>
+                            </plentry>
+                            <plentry class="+ topic/dlentry pr-d/plentry ">
+                                <pt class="+ topic/dt pr-d/pt ">parameter_2</pt>
+                                <pd class="+ topic/dd pr-d/pd ">This is the second parameter in the parameter list.</pd>
+                            </plentry>
+                        </parml>Here's how you can define a parameter list using this tag:<image class="- topic/image " height="80" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/parml%20-%20sample.png" id="unique_8_Connect_42_image_qfr_gyj_z1c" nd:nd-id="image_qfr_gyj_z1c" placement="break" width="400"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry " id="unique_8_Connect_42_dlentry_nkw_gtj_z1c" nd:nd-id="dlentry_nkw_gtj_z1c">
+                <dt class="- topic/dt ">plentry</dt>
+                <dd class="- topic/dd ">parameter list entry (within parml)<p class="- topic/p ">Example:<parml class="+ topic/dl pr-d/parml " id="unique_8_Connect_42_parml_cjs_zkj_z1c" nd:nd-id="parml_cjs_zkj_z1c">
+                            <plentry class="+ topic/dlentry pr-d/plentry ">
+                                <pt class="+ topic/dt pr-d/pt ">parameter_1</pt>
+                                <pd class="+ topic/dd pr-d/pd ">This is a parameter entry.</pd>
+                            </plentry>
+                        </parml>Here's how you can use this tag to enter a parameter:<image class="- topic/image " height="50" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/plentry%20-%20sample.png" id="unique_8_Connect_42_image_qhb_l1k_z1c" nd:nd-id="image_qhb_l1k_z1c" placement="break" width="300"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry " id="unique_8_Connect_42_dlentry_uc4_htj_z1c" nd:nd-id="dlentry_uc4_htj_z1c">
+                <dt class="- topic/dt ">pt</dt>
+                <dd class="- topic/dd ">parameter term (within plentry)<p class="- topic/p "> Example:<parml class="+ topic/dl pr-d/parml " id="unique_8_Connect_42_parml_j5z_2qj_z1c" nd:nd-id="parml_j5z_2qj_z1c">
+                            <plentry class="+ topic/dlentry pr-d/plentry ">
+                                <pt class="+ topic/dt pr-d/pt ">parameter_1</pt>
+                                <pd class="+ topic/dd pr-d/pd ">This is the parameter term.</pd>
+                            </plentry>
+                        </parml>Here's how this tag is used:<image class="- topic/image " height="50" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/pt%20-%20sample.png" id="unique_8_Connect_42_image_bv5_g1k_z1c" nd:nd-id="image_bv5_g1k_z1c" placement="break" width="360"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry " id="unique_8_Connect_42_dlentry_l4w_htj_z1c" nd:nd-id="dlentry_l4w_htj_z1c">
+                <dt class="- topic/dt ">pd</dt>
+                <dd class="- topic/dd ">parameter definition<p class="- topic/p ">Example:<parml class="+ topic/dl pr-d/parml " id="unique_8_Connect_42_parml_iwv_pxj_z1c" nd:nd-id="parml_iwv_pxj_z1c">
+                            <plentry class="+ topic/dlentry pr-d/plentry ">
+                                <pt class="+ topic/dt pr-d/pt ">paramter_1</pt>
+                                <pd class="+ topic/dd pr-d/pd ">This is the parameter definition.</pd>
+                            </plentry>
+                        </parml>Here's how this tag is used:<image class="- topic/image " height="50" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/pd%20-%20sample.png" id="unique_8_Connect_42_image_twd_zgk_z1c" nd:nd-id="image_twd_zgk_z1c" placement="break" width="360"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">synph</dt>
+                <dd class="- topic/dd ">syntax phrase. It is used when a complete syntax diagram is not required, but
+                    some of the syntax elements, such as
+                        <codeph class="+ topic/ph pr-d/codeph ">&lt;kwd&gt;</codeph><codeph class="+ topic/ph pr-d/codeph ">&lt;oper&gt;</codeph><codeph class="+ topic/ph pr-d/codeph ">&lt;delim&gt;</codeph>
+                    are used within the text flow of the topic
+                                content.<p class="- topic/p ">Example:<synph class="+ topic/ph pr-d/synph "><kwd class="+ topic/keyword pr-d/kwd ">format</kwd><var class="+ topic/ph pr-d/var ">volumename</var></synph>
+                        Here's how this tag is used: <image class="- topic/image " height="30" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/symph%20-%20sample.png" id="unique_8_Connect_42_image_wrx_g3k_z1c" nd:nd-id="image_wrx_g3k_z1c" placement="break" width="350"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">syntaxdiagram</dt>
+                <dd class="- topic/dd ">syntax diagram<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_zdp_3jk_z1c" nd:nd-id="syntaxdiagram_zdp_3jk_z1c"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper "><b class="+ topic/ph hi-d/b ">This is the element container for syntax elements.</b></ph></title></syntaxdiagram> Here's how this tag is used:<image class="- topic/image " height="35" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/syntaxdiagram%20-%20sample.png" id="unique_8_Connect_42_image_yym_kkk_z1c" nd:nd-id="image_yym_kkk_z1c" placement="break" width="400"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">groupseq</dt>
+                <dd class="- topic/dd ">group of syntactic units (used only for syntax diagrams)<p class="- topic/p ">Example:
+                            <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_zbb_pkk_z1c" nd:nd-id="syntaxdiagram_zbb_pkk_z1c"><groupseq class="+ topic/figgroup pr-d/groupseq ">
+                                <title class="- topic/title ">Place your group of syntactic units here.</title>
+                            </groupseq></syntaxdiagram> Here's how this tag is used: <image class="- topic/image " height="40" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/groupseq%20-%20sample.png" id="unique_8_Connect_42_image_xfj_jlk_z1c" nd:nd-id="image_xfj_jlk_z1c" placement="break" width="400"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">groupchoice</dt>
+                <dd class="- topic/dd ">choice of a group of syntactic units (used only for syntax diagrams)<p class="- topic/p ">Example:
+                            <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_cvn_wdl_z1c" nd:nd-id="syntaxdiagram_cvn_wdl_z1c"><groupchoice class="+ topic/figgroup pr-d/groupchoice ">
+                                <var class="+ topic/ph pr-d/var ">var1 -<varname class="+ topic/keyword sw-d/varname ">name</varname></var>
+                            </groupchoice></syntaxdiagram> Here's how this tag is used:<image class="- topic/image " height="50" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/groupchoice%20-%20sample.png" id="unique_8_Connect_42_image_wln_t2l_z1c" nd:nd-id="image_wln_t2l_z1c" placement="break" width="400"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">groupcomp</dt>
+                <dd class="- topic/dd ">group of composite syntactic units (used only for syntax diagrams)<p class="- topic/p ">Example:
+                            <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_oky_1fl_z1c" nd:nd-id="syntaxdiagram_oky_1fl_z1c"><groupcomp class="+ topic/figgroup pr-d/groupcomp ">
+                                <var class="+ topic/ph pr-d/var ">v1</var>
+                            </groupcomp></syntaxdiagram> Here's how this tag is used:<image class="- topic/image " height="30" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/groupcomp%20-%20sampl.png" id="unique_8_Connect_42_image_ebk_tfl_z1c" nd:nd-id="image_ebk_tfl_z1c" placement="break" width="350"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">fragment</dt>
+                <dd class="- topic/dd ">fragment of syntax (used only for syntax diagrams)<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_q13_wfl_z1c" nd:nd-id="syntaxdiagram_q13_wfl_z1c"><fragment class="+ topic/figgroup pr-d/fragment ">
+                                <synnote class="+ topic/fn pr-d/synnote ">xyz</synnote>
+                            </fragment></syntaxdiagram> Here's how this tag is used:<image class="- topic/image " height="25" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/fragment.png" id="unique_8_Connect_42_image_rbt_lgl_z1c" nd:nd-id="image_rbt_lgl_z1c" placement="break" width="400"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">fragref</dt>
+                <dd class="- topic/dd ">cross-reference to a fragment of syntax diagram<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_rzh_jgl_z1c" nd:nd-id="syntaxdiagram_rzh_jgl_z1c"><fragref class="+ topic/xref pr-d/fragref ">xyz</fragref></syntaxdiagram> Here's how this tag is used:<image class="- topic/image " height="30" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/fragref.png" id="unique_8_Connect_42_image_dgb_1hl_z1c" nd:nd-id="image_dgb_1hl_z1c" placement="break" width="330"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">synblk</dt>
+                <dd class="- topic/dd ">block of small pieces of a syntax definition into a larger piece.<p class="- topic/p ">Example:
+                            <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_a4b_dhl_z1c" nd:nd-id="syntaxdiagram_a4b_dhl_z1c"><synblk class="+ topic/figgroup pr-d/synblk ">
+                                <groupchoice class="+ topic/figgroup pr-d/groupchoice ">
+                                    <var class="+ topic/ph pr-d/var ">v1<varname class="+ topic/keyword sw-d/varname ">variable_name</varname></var>
+                                </groupchoice>
+                            </synblk></syntaxdiagram> Here's how this tag is used: <image class="- topic/image " height="40" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/synblk%20-%20sample.png" id="unique_8_Connect_42_image_k4j_djl_z1c" nd:nd-id="image_k4j_djl_z1c" placement="break" width="400"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">synnote</dt>
+                <dd class="- topic/dd ">footnote within syntax (syntax note). Use it to explain aspects of the syntax
+                    that cannot be expressed in the markup itself.<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_bs5_fjl_z1c" nd:nd-id="syntaxdiagram_bs5_fjl_z1c"><synnote class="+ topic/fn pr-d/synnote ">My first syntax note</synnote></syntaxdiagram> Here's how this tag can be used:<image class="- topic/image " height="30" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/synnote.png" id="unique_8_Connect_42_image_ggg_tjl_z1c" nd:nd-id="image_ggg_tjl_z1c" placement="break" width="400"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">synnoteref</dt>
+                <dd class="- topic/dd ">cross-reference to a syntax note<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_efz_wlr_z1c" nd:nd-id="syntaxdiagram_efz_wlr_z1c"><synnoteref class="+ topic/xref pr-d/synnoteref " href="#unique_8_Connect_42_syntaxdiagram_cvn_wdl_z1c" type="syntaxdiagram"><?ditaot gentext?></synnoteref></syntaxdiagram>Here's how this tag can be used: <image class="- topic/image " dita-ot:image-width="386" dita-ot:image-height="34" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/synnoteref%20-%20sample.png" id="unique_8_Connect_42_image_xbd_1mr_z1c" nd:nd-id="image_xbd_1mr_z1c" placement="break"/>
+                    </p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">kwd</dt>
+                <dd class="- topic/dd ">syntax keyword (used only for syntax diagrams)<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_y3j_cmr_z1c" nd:nd-id="syntaxdiagram_y3j_cmr_z1c"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">CopyFile</ph></title><groupseq class="+ topic/figgroup pr-d/groupseq ">
+                                <kwd class="+ topic/keyword pr-d/kwd ">COPYF</kwd>
+                            </groupseq></syntaxdiagram><image class="- topic/image " height="50" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/kwd%20-%20sample.png" id="unique_8_Connect_42_image_nbv_lxq_x1c" nd:nd-id="image_nbv_lxq_x1c" placement="break" width="350"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">var</dt>
+                <dd class="- topic/dd ">variable that a user must supply, such as their user name or password (used only
+                    for syntax diagrams)<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_mkn_mmr_z1c" nd:nd-id="syntaxdiagram_mkn_mmr_z1c"><groupchoice class="+ topic/figgroup pr-d/groupchoice ">
+                                <var class="+ topic/ph pr-d/var ">input-filename</var>
+                            </groupchoice></syntaxdiagram>Here's how this tag can be used:<image class="- topic/image " height="30" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/var%20-%20image.png" id="unique_8_Connect_42_image_l5s_jzq_x1c" nd:nd-id="image_l5s_jzq_x1c" placement="break" width="400"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">oper</dt>
+                <dd class="- topic/dd ">operator character (such as +, -, and =) within syntax<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_njl_pmr_z1c" nd:nd-id="syntaxdiagram_njl_pmr_z1c"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Adding</ph></title><groupseq class="+ topic/figgroup pr-d/groupseq ">
+                                <var class="+ topic/ph pr-d/var ">1</var>
+                                <oper class="+ topic/ph pr-d/oper ">+</oper>
+                                <var class="+ topic/ph pr-d/var ">2</var>
+                            </groupseq></syntaxdiagram> Here's how this tag can be used: <image class="- topic/image " height="45" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/oper-sample.png" id="unique_8_Connect_42_image_zqh_dnr_z1c" nd:nd-id="image_zqh_dnr_z1c" placement="break" width="400"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">delim</dt>
+                <dd class="- topic/dd ">delimiter characters (such as /, |, and ;) to mark the beginning or end of a
+                    section within a syntax diagram.<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_ubt_gnr_z1c" nd:nd-id="syntaxdiagram_ubt_gnr_z1c"><groupseq class="+ topic/figgroup pr-d/groupseq ">
+                                <var class="+ topic/ph pr-d/var ">one</var>
+                                <delim class="+ topic/ph pr-d/delim ">|</delim>
+                                <var class="+ topic/ph pr-d/var ">two</var>
+                                <delim class="+ topic/ph pr-d/delim ">|</delim>
+                                <var class="+ topic/ph pr-d/var ">three</var>
+                            </groupseq></syntaxdiagram><image class="- topic/image " height="50" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/delim%20-%20sample.png" id="unique_8_Connect_42_image_pq5_pbr_x1c" nd:nd-id="image_pq5_pbr_x1c" placement="break" width="500"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">sep</dt>
+                <dd class="- topic/dd ">seperator character within syntax<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram " id="unique_8_Connect_42_syntaxdiagram_yqz_lnr_z1c" nd:nd-id="syntaxdiagram_yqz_lnr_z1c"><groupseq class="+ topic/figgroup pr-d/groupseq ">
+                                <var class="+ topic/ph pr-d/var ">1</var>
+                                <oper class="+ topic/ph pr-d/oper ">+</oper>
+                                <sep class="+ topic/ph pr-d/sep ">(</sep>
+                                <var class="+ topic/ph pr-d/var ">2</var>
+                                <oper class="+ topic/ph pr-d/oper ">*</oper>
+                                <var class="+ topic/ph pr-d/var ">3</var>
+                                <sep class="+ topic/ph pr-d/sep ">)</sep>
+                                <delim class="+ topic/ph pr-d/delim ">=</delim>
+                                <var class="+ topic/ph pr-d/var ">7</var>
+                            </groupseq></syntaxdiagram><image class="- topic/image " height="45" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/images/sep%20-%20sample.png" id="unique_8_Connect_42_image_mrz_wcr_x1c" nd:nd-id="image_mrz_wcr_x1c" placement="break" width="500"/></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">repsep</dt>
+                <dd class="- topic/dd ">seperator character for repeated syntax elements<p class="- topic/p ">Example: <syntaxdiagram class="+ topic/fig pr-d/syntaxdiagram "><groupchoice class="+ topic/figgroup pr-d/groupchoice ">
+                                <repsep class="+ topic/ph pr-d/repsep ">,</repsep>
+                                <kwd class="+ topic/keyword pr-d/kwd ">This</kwd>
+                                <kwd class="+ topic/keyword pr-d/kwd ">That</kwd>
+                                <kwd class="+ topic/keyword pr-d/kwd ">The other</kwd>
+                            </groupchoice></syntaxdiagram><image class="- topic/image " height="45" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/repsep%20-%20image.png" id="unique_8_Connect_42_image_vfh_zdr_x1c" nd:nd-id="image_vfh_zdr_x1c" placement="break" width="500"/></p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link><link class="- topic/link " format="dita" href="#unique_9" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>User interface domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the user interface domain each have a specific semantic purpose. </desc></link><link class="- topic/link " format="dita" href="#unique_10" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Software domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the software domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_11" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Utilities domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the utilities domain each have a specific purpose in defining image         map properties.</desc></link><link class="- topic/link " format="dita" href="#unique_12" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Metadata domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link><link class="- topic/link " format="dita" href="#unique_13" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Typographic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link></linkpool></related-links></concept><concept class="- topic/topic concept/concept " id="unique_9" topicrefclass="- map/topicref " nd:nd-id="user_interface_domain_elements" oid="user_interface_domain_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">User interface domain elements</ph></title>
+    <shortdesc class="- topic/shortdesc ">The elements in the user interface domain each have a specific semantic purpose. </shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <dl class="- topic/dl " id="unique_9_Connect_42_dl_q2x_f2r_x1c" nd:nd-id="dl_q2x_f2r_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">uicontrol</dt>
+                <dd class="- topic/dd ">user interface control element is used to mark up UI controls, such as button
+                    names, menu items, and other objects.<p class="- topic/p ">Example:</p><p class="- topic/p ">Press the
+                            <uicontrol class="+ topic/ph ui-d/uicontrol ">Submit</uicontrol> (&lt;uicontrol&gt;)button to submit your
+                        form.</p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">wintitle</dt>
+                <dd class="- topic/dd ">window title<p class="- topic/p ">Example: The <wintitle class="+ topic/keyword ui-d/wintitle ">Configure Options</wintitle> window opens
+                        with your last set of selections highighted.</p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">menucascade</dt>
+                <dd class="- topic/dd ">menu cascade<p class="- topic/p ">Example: To open the Notepad, navigate to <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:1;22:91" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/user_interface_domain_elements.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Start</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol "> Programs </uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol "> Accessories</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol "> Notepad</uicontrol></menucascade></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">shortcut</dt>
+                <dd class="- topic/dd ">shortcut<p class="- topic/p ">Example: Navigate to <uicontrol class="+ topic/ph ui-d/uicontrol ">Start &gt;</uicontrol>
+                        <uicontrol class="+ topic/ph ui-d/uicontrol "><shortcut class="+ topic/keyword ui-d/shortcut ">S</shortcut>ettings</uicontrol> to open the system
+                        settings.</p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">screen</dt>
+                <dd class="- topic/dd ">character (text only) screen<p class="- topic/p ">
+                        <screen class="+ topic/pre ui-d/screen " id="unique_9_Connect_42_screen_j5r_ypr_z1c" nd:nd-id="screen_j5r_ypr_z1c" xml:space="preserve">   File  Edit  Search  View  Options  Help
++--------------------------------- UNTITLED1 ----------------------------------+
+¦ C:\Users\Administrator&gt;screen
+'screen' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator&gt;cmd window
+Microsoft Windows [Version 10.0.19045.4170]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator&gt;cd..
+
+C:\Users&gt;dir
+ Volume in drive C has no label.
+ Volume Serial Number is 8888-9999
+
+ Directory of C:\Users
+
+03-08-2023  10:53    &lt;DIR&gt;          .
+03-08-2023  10:53    &lt;DIR&gt;          ..
+04-03-2023  15:46                 0 abd
+30-03-2024  12:42    &lt;DIR&gt;          Administrator
+24-02-2023  18:48    &lt;DIR&gt;          admin_86e45
+04-03-2023  16:15    &lt;DIR&gt;          Public
+               1 File(s)              0 bytes
+               5 Dir(s)  23,563,603,968 bytes free                                                                             ¦
+¦                                                                              ¦
+¦                                                                              ¦
+¦                                                                              ¦
+¦  Line:1    Col:1  F1=Help                                                    ¦
++------------------------------------------------------------------------------+</screen>
+                    </p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link><link class="- topic/link " format="dita" href="#unique_8" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Programming domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the programming domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_10" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Software domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the software domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_11" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Utilities domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the utilities domain each have a specific purpose in defining image         map properties.</desc></link><link class="- topic/link " format="dita" href="#unique_12" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Metadata domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link><link class="- topic/link " format="dita" href="#unique_13" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Typographic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link></linkpool></related-links></concept><concept class="- topic/topic concept/concept " id="unique_10" topicrefclass="- map/topicref " nd:nd-id="software_domain_elements" oid="software_domain_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Software domain elements</ph></title>
+    <shortdesc class="- topic/shortdesc ">The elements in the software domain each have a specific semantic
+        purpose.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Below are the software domain elements, their semantic purposes, and an example for
+            each.</p>
+        <dl class="- topic/dl " id="unique_10_Connect_42_dl_ntp_ktr_x1c" nd:nd-id="dl_ntp_ktr_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">msgph</dt>
+                <dd class="- topic/dd ">message phrase<p class="- topic/p ">Example: Double-click <msgph class="+ topic/ph sw-d/msgph ">Setup.exe</msgph> to begin the
+                        installation process.</p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">msgblock</dt>
+                <dd class="- topic/dd ">message block<p class="- topic/p ">Example: &lt;msgblock&gt;
+                        <msgblock class="+ topic/pre sw-d/msgblock " id="unique_10_Connect_42_msgblock_z31_rsr_z1c" nd:nd-id="msgblock_z31_rsr_z1c" xml:space="preserve">&lt;title&gt;Warning&lt;/title&gt; &lt;msgph&gt;This action cannot be undone. Are you sure you want to proceed?</msgblock></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">msgnum</dt>
+                <dd class="- topic/dd ">message number<p class="- topic/p ">Example: <msgnum class="+ topic/keyword sw-d/msgnum ">401</msgnum>: <msgph class="+ topic/ph sw-d/msgph ">Unauthorized
+                            Access</msgph>.<text class="- topic/text ">You don't have permission to access this
+                            resource.</text></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">cmdname</dt>
+                <dd class="- topic/dd ">command name<p class="- topic/p ">Example: To compile the source code, use the
+                            <cmdname class="+ topic/keyword sw-d/cmdname ">javac</cmdname> following by the name of the Java source
+                        file.</p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">varname</dt>
+                <dd class="- topic/dd ">variable (to be provided by user) name<p class="- topic/p ">Example: Use <varname class="+ topic/keyword sw-d/varname ">md</varname>
+                        command following the directory name to create a new directory.</p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">filepath</dt>
+                <dd class="- topic/dd ">file name or path, or URI<p class="- topic/p ">Example: Uncompress the
+                            <filepath class="+ topic/ph sw-d/filepath ">gbbrsh.gz</filepath> file to the <filepath class="+ topic/ph sw-d/filepath ">/usr</filepath>
+                        directory.</p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">userinput</dt>
+                <dd class="- topic/dd ">user input<p class="- topic/p ">Example: Instructions to install a software:<ol class="- topic/ol " id="unique_10_Connect_42_ol_oqw_kfs_z1c" nd:nd-id="ol_oqw_kfs_z1c">
+                            <li class="- topic/li ">Open the terminal window.</li>
+                            <li class="- topic/li ">Type the following command: <userinput class="+ topic/ph sw-d/userinput ">sudo apt-get install
+                                    software-name</userinput>.</li>
+                            <li class="- topic/li ">Press Enter to execute the command.</li>
+                            <li class="- topic/li ">Follow the on-screen instructions to complete the installation.</li>
+                        </ol></p></dd>
+            </dlentry>
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">systemoutput</dt>
+                <dd class="- topic/dd ">system output<p class="- topic/p ">Example:  To access the "sri" directory available in the root
+                        directory, first type the comamnd <userinput class="+ topic/ph sw-d/userinput ">cd..</userinput>, to go to the
+                        root directory. Use this command until you see this path:
+                            <filepath class="+ topic/ph sw-d/filepath ">C:\Users&gt;</filepath>. Then, type the command <cmdname class="+ topic/keyword sw-d/cmdname ">cd
+                            sri</cmdname>, and hit <b class="+ topic/ph hi-d/b ">Enter</b> key. The system takes you to the
+                        directory: <systemoutput class="+ topic/ph sw-d/systemoutput ">C:\Users\sri&gt;</systemoutput>.</p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link><link class="- topic/link " format="dita" href="#unique_8" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Programming domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the programming domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_9" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>User interface domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the user interface domain each have a specific semantic purpose. </desc></link><link class="- topic/link " format="dita" href="#unique_11" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Utilities domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the utilities domain each have a specific purpose in defining image         map properties.</desc></link><link class="- topic/link " format="dita" href="#unique_12" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Metadata domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link><link class="- topic/link " format="dita" href="#unique_13" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Typographic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link></linkpool></related-links></concept><concept class="- topic/topic concept/concept " id="unique_11" topicrefclass="- map/topicref " nd:nd-id="utilities_domain_elements" oid="utilities_domain_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Utilities domain elements</ph></title>
+    <shortdesc class="- topic/shortdesc ">The elements in the utilities domain each have a specific purpose in defining image
+        map properties.</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <dl class="- topic/dl " id="unique_11_Connect_42_dl_qsx_rpn_x1c" nd:nd-id="dl_qsx_rpn_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">imagemap</dt>
+                <dd class="- topic/dd ">client-side image map</dd>
+            </dlentry>
+        </dl>
+        <dl class="- topic/dl " id="unique_11_Connect_42_dl_dqw_tpn_x1c" nd:nd-id="dl_dqw_tpn_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">area</dt>
+                <dd class="- topic/dd ">hotspot area within an image map</dd>
+            </dlentry>
+        </dl>
+        <dl class="- topic/dl " id="unique_11_Connect_42_dl_prb_4qn_x1c" nd:nd-id="dl_prb_4qn_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">coords</dt>
+                <dd class="- topic/dd ">co-ordinates of a hotspot area within an image map</dd>
+            </dlentry>
+        </dl>
+        <dl class="- topic/dl " id="unique_11_Connect_42_dl_spn_rqn_x1c" nd:nd-id="dl_spn_rqn_x1c">
+            <dlentry class="- topic/dlentry ">
+                <dt class="- topic/dt ">shape</dt>
+                <dd class="- topic/dd ">shape of a hotspot area within an image map</dd>
+            </dlentry>
+        </dl>
+        <p class="- topic/p ">Below is the image inserted using the "imagemap" element:<imagemap class="+ topic/fig ut-d/imagemap " id="unique_11_Connect_42_imagemap_dlj_ttn_x1c" nd:nd-id="imagemap_dlj_ttn_x1c"><image class="- topic/image " dita-ot:image-width="494" dita-ot:image-height="486" href="file:/E:/Vasavi%20Learnings/DITA%20XML/Week3_Assignment/Image-PNG.png" id="unique_11_Connect_42_image_elj_ttn_x1c" nd:nd-id="image_elj_ttn_x1c" placement="break"/><area class="+ topic/figgroup ut-d/area ">
+                    <shape class="+ topic/keyword ut-d/shape " translate="no">rect</shape>
+                    <coords class="+ topic/ph ut-d/coords " translate="no">50, 45, 238, 236</coords>
+                    <xref class="- topic/xref " format="dita" href="#unique_1" type="concept"><?ditaot usertext?>Overview</xref>
+                </area><area class="+ topic/figgroup ut-d/area ">
+                    <shape class="+ topic/keyword ut-d/shape " translate="no">rect</shape>
+                    <coords class="+ topic/ph ut-d/coords " translate="no">254, 44, 444, 234</coords>
+                    <xref class="- topic/xref " format="dita" href="#unique_3" type="concept"><?ditaot usertext?>Click here for "Topic
+                        Elements"<?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">topic elements</i> are the basic structural building blocks of all information         types.</desc></xref>
+                </area><area class="+ topic/figgroup ut-d/area ">
+                    <shape class="+ topic/keyword ut-d/shape " translate="no">rect</shape>
+                    <coords class="+ topic/ph ut-d/coords " translate="no">51, 252, 240, 440</coords>
+                    <xref class="- topic/xref " format="dita" href="#unique_4" type="concept"><?ditaot usertext?>Click here to understand map
+                        elements<?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">map elements</i> are the elements used in ditamaps and bookmaps.</desc></xref>
+                </area><area class="+ topic/figgroup ut-d/area ">
+                    <shape class="+ topic/keyword ut-d/shape " translate="no">rect</shape>
+                    <coords class="+ topic/ph ut-d/coords " translate="no">255, 252, 446, 437</coords>
+                    <xref class="- topic/xref " format="dita" href="#unique_6" type="concept"><?ditaot usertext?>Click here to understand prolog
+                        elements<?ditaot genshortdesc?><desc class="- topic/desc ">A topic's metadata is stored in a range of <i class="+ topic/ph hi-d/i ">prolog elements</i>.</desc></xref>
+                </area></imagemap></p>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link><link class="- topic/link " format="dita" href="#unique_8" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Programming domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the programming domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_9" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>User interface domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the user interface domain each have a specific semantic purpose. </desc></link><link class="- topic/link " format="dita" href="#unique_10" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Software domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the software domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_12" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Metadata domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link><link class="- topic/link " format="dita" href="#unique_13" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Typographic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link></linkpool></related-links></concept><concept class="- topic/topic concept/concept " id="unique_12" topicrefclass="- map/topicref " nd:nd-id="metadata_domain_elements" oid="metadata_domain_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Metadata domain elements</ph></title>
+    <shortdesc class="- topic/shortdesc "/>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "/>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link><link class="- topic/link " format="dita" href="#unique_8" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Programming domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the programming domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_9" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>User interface domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the user interface domain each have a specific semantic purpose. </desc></link><link class="- topic/link " format="dita" href="#unique_10" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Software domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the software domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_11" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Utilities domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the utilities domain each have a specific purpose in defining image         map properties.</desc></link><link class="- topic/link " format="dita" href="#unique_13" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Typographic elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link></linkpool></related-links></concept><concept class="- topic/topic concept/concept " id="unique_13" topicrefclass="- map/topicref " nd:nd-id="typographic_elements" oid="typographic_elements" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Typographic elements</ph></title>
+    <shortdesc class="- topic/shortdesc "/>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p "/>
+    </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool "><link class="- topic/link " format="dita" href="#unique_7" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The <i class="+ topic/ph hi-d/i ">domain elements</i> are comprised of a number of separate sets of elements         that relate to specific documentation fields.</desc></link><link class="- topic/link " format="dita" href="#unique_8" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Programming domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the programming domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_9" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>User interface domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the user interface domain each have a specific semantic purpose. </desc></link><link class="- topic/link " format="dita" href="#unique_10" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Software domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the software domain each have a specific semantic         purpose.</desc></link><link class="- topic/link " format="dita" href="#unique_11" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Utilities domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc ">The elements in the utilities domain each have a specific purpose in defining image         map properties.</desc></link><link class="- topic/link " format="dita" href="#unique_12" mapclass="- map/topicref " role="friend" scope="local" type="concept"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Metadata domain elements</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link></linkpool></related-links></concept></concept></concept></map>

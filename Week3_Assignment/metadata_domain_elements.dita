@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="metadata_domain_elements">
+    <title>Metadata domain elements</title>
+    <shortdesc>The elements in the metadata domain each have a specific semantic
+        purpose.</shortdesc>
+    <conbody>
+        <dl id="dl_c2s_hg5_z1c">
+            <dlentry>
+                <dt>index-see</dt>
+                <dd>redirection to another index entry</dd>
+            </dlentry>
+            <dlentry>
+                <dt>index-see-also</dt>
+                <dd>additional redirection to another index entry</dd>
+            </dlentry>
+            <dlentry>
+                <dt>index-sort-as</dt>
+                <dd>alternative sort phrase for an index entry</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Topicgroup</dt>
+                <dd>non-heirarchical group of topics in a ditamap</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Topichead</dt>
+                <dd>title only heading entry in a ditamap</dd>
+            </dlentry>
+            <dlentry>
+                <dt>authorinformation</dt>
+                <dd>author information (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>addressdetails</dt>
+                <dd>address details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>administrativearea</dt>
+                <dd>address country, state, province or other administrative area within address
+                    details (in a bookmap) </dd>
+            </dlentry>
+            <dlentry>
+                <dt>contactnumber</dt>
+                <dd>contact telephone number within a group of contact numbers </dd>
+            </dlentry>
+            <dlentry>
+                <dt>contactumbers</dt>
+                <dd>group of contact telephone numbers within address details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Country</dt>
+                <dd>address country within address details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>emailaddresses</dt>
+                <dd>group of e-mail addresses within address details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>emailaddress</dt>
+                <dd>e-mail address within a group of e-mail addresses (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>firstname</dt>
+                <dd>first or given name within name details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>generationidentifier</dt>
+                <dd>generation identifier within name details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>honorific</dt>
+                <dd>honorific within name details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>lastname</dt>
+                <dd>last or family name within name details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>locality</dt>
+                <dd>locality or city within address details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>localityname</dt>
+                <dd>locality name within locality (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>middlename</dt>
+                <dd>middle name within name details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>namedetails</dt>
+                <dd>name details within organisation information (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>organizationinfo</dt>
+                <dd>organisation information (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>organizationname</dt>
+                <dd>organisation name within organisation name details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>organizationnamedetails</dt>
+                <dd>organisation name details within name details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>otherinfo</dt>
+                <dd>other information within organisation name details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>personinfo</dt>
+                <dd>person information (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>personname</dt>
+                <dd>person name within name details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>postalcode</dt>
+                <dd>postal code or zip code within locality (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>thoroughfare</dt>
+                <dd>street, road, or other thoroughfare within address details (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>url</dt>
+                <dd>URL or URI within a group of URLs (in a bookmap)</dd>
+            </dlentry>
+            <dlentry>
+                <dt>urls</dt>
+                <dd>group of URLs or URIs within organisation details (in a bookmap)</dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

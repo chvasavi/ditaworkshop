@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="a1_reference_dir">
+    <title>dir</title>
+    <shortdesc/>
+    <refbody>
+        <section id="section_qyj_mzg_t1c">
+            <p>Displays a list of a directory's files and subdirectories. If used without
+                parameters, this command displays the disk's volume label and serial number,
+                followed by a list of directories and files on the disk (including their names and
+                the date and time each was last modified). For files, this command displays the name
+                extension and the size in bytes. This command also displays the total number of
+                files and directories listed, their cumulative size, and the free space (in bytes)
+                remaining on the disk.</p>
+            <p>The <b>dir</b> command can also run from the Windows Recovery Console, using
+                different parameters. For more information, see <xref href="https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference" format="html" scope="external">Windows Recovery Environment (WinRE)</xref>.</p>
+        </section>
+        <section id="section_fys_nzg_t1c">
+            <title>Syntax</title>
+            <codeblock id="codeblock_czp_f1h_t1c" outputclass="language-cmd">dir [&lt;drive>:][&lt;path>][&lt;filename>] [...] [/p] [/q] [/w] [/d] [/a[[:]&lt;attributes>]][/o[[:]&lt;sortorder>]] [/t[[:]&lt;timefield>]] [/s] [/b] [/l] [/n] [/x] [/c] [/4] [/r]</codeblock>
+        </section>
+        <section id="section_ag2_21h_t1c">
+            <title>Parameters</title>
+            <p>
+                <table frame="all" rowsep="1" colsep="0" id="table_ljr_cbh_t1c">
+                    <tgroup cols="2" align="left">
+                        <colspec colname="c1" colnum="1" align="left" colwidth="1*" colsep="0"
+                            rowsep="1"/>
+                        <colspec colname="c2" colnum="2" align="left" colwidth="3.79*" colsep="0"
+                            rowsep="1"/>
+                        <thead>
+                            <row rowsep="1">
+                                <entry align="left" valign="middle" colsep="0" rowsep="1"
+                                    >Parameter</entry>
+                                <entry align="left" valign="middle" colsep="0" rowsep="1"
+                                    >Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row valign="top">
+                                <entry>
+                                    <p><codeph id="codeblock_ggt_15h_t1c"
+                                            >[&lt;drive>:]</codeph><codeph
+                                            id="codeblock_omy_b5h_t1c">[&lt;path>]</codeph></p>
+                                </entry>
+                                <entry>Specifies the drive and directory for which you want to see a
+                                    listing.</entry>
+                            </row>
+                            <row>
+                                <entry><codeph>[&lt;filename>]</codeph></entry>
+                                <entry>Specifies a particular file or group of files for which you
+                                    want to see a listing.</entry>
+                            </row>
+                            <row>
+                                <entry>/p</entry>
+                                <entry>Displays one screen of the listing at a time. To see the next
+                                    screen, press any key.</entry>
+                            </row>
+                            <row>
+                                <entry>/q</entry>
+                                <entry>Displays file ownership information.</entry>
+                            </row>
+                            <row>
+                                <entry>/w</entry>
+                                <entry>Displays the listing in wide format, with as many as five
+                                    file names or directory names on each line.</entry>
+                            </row>
+                            <row>
+                                <entry>/d</entry>
+                                <entry>Displays the listing in the same format as <b>/w</b>, but the
+                                    files are sorted by column.</entry>
+                            </row>
+                            <row valign="top">
+                                <entry>/a[[:]<codeph>&lt;attributes></codeph>]</entry>
+                                <entry>Displays only the names of those directories and files with
+                                    your specified attributes. If you don't use this parameter, the
+                                    command displays the names of all files except hidden and system
+                                    files. If you use this parameter without specifying any
+                                        <i>attributes</i>, the command displays the names of all
+                                    files, including hidden and system files. The list of possible
+                                        <i>attributes</i> values are:<ul id="ul_h5w_gf3_t1c">
+                                        <li><b>d</b> - Directories</li>
+                                        <li><b>h </b> - Hidden files</li>
+                                        <li><b>s</b> - System files</li>
+                                        <li><b>l </b>- Reparse points</li>
+                                        <li><b>r</b> - Read-only files</li>
+                                        <li><b>a</b> - Files ready for archiving</li>
+                                        <li><b>i</b> - Not content indexed files</li>
+                                    </ul><p>You can use any combination of these values, but don't
+                                        separate your values using spaces. Optionally you can use a
+                                        colon (:) separator, or you can use a hyphen (-) as a prefix
+                                        to mean, "not". For example, using the <b>-s</b> attribute
+                                        won't show the system files.</p></entry>
+                            </row>
+                            <row valign="top">
+                                <entry>/o[[:]<codeph>&lt;sortorder></codeph>]</entry>
+                                <entry>Sorts the output according to <i>sortorder</i>, which can be
+                                    any combination of the following values:<ul id="ul_rj1_tg3_t1c">
+                                        <li><b>n</b> - Alphabetically by name</li>
+                                        <li><b>e</b> - Alphabetically by extension</li>
+                                        <li><b>g</b> - Group directories first</li>
+                                        <li><b>s </b>- By size, smallest first</li>
+                                        <li><b>d</b> - By date/time, oldest first</li>
+                                        <li>Use the - prefix to reverse the sort order</li>
+                                    </ul>Multiple values are processed in the order in which you
+                                    list them. Don't separate multiple values with spaces, but you
+                                    can optionally use a colon (:).<p>If <i>sortorder</i> isn't
+                                        specified, <b>dir /o</b> lists the directories
+                                        alphabetically, followed by the files, which are also sorted
+                                        alphabetically.</p></entry>
+                            </row>
+                            <row valign="top" rowsep="1">
+                                <entry>/t[[:]<codeph>&lt;timefield></codeph>]</entry>
+                                <entry>Specifies which time field to display or to use for sorting.
+                                    The available <i>timefield</i> values are:<ul
+                                        id="ul_ynx_gh3_t1c">
+                                        <li><b>c</b> - Creation</li>
+                                        <li><b>a</b> - Last accessed</li>
+                                        <li><b>w</b> - Last written</li>
+                                    </ul></entry>
+                            </row>
+                            <row>
+                                <entry>/s</entry>
+                                <entry>Lists every occurrence of the specified file name within the
+                                    specified directory and all subdirectories.</entry>
+                            </row>
+                            <row>
+                                <entry>/b</entry>
+                                <entry>Displays a bare list of directories and files, with no
+                                    additional information. The <b>/b</b> parameter overrides
+                                        <b>/w</b>.</entry>
+                            </row>
+                            <row>
+                                <entry>/l</entry>
+                                <entry>Displays unsorted directory names and file names, using
+                                    lowercase.</entry>
+                            </row>
+                            <row>
+                                <entry>/n</entry>
+                                <entry>Displays a long list format with file names on the far right
+                                    of the screen.</entry>
+                            </row>
+                            <row>
+                                <entry>/x</entry>
+                                <entry>Displays the short names generated for non-8dot3 file names.
+                                    The display is the same as the display for <b>/n</b>, but the
+                                    short name is inserted before the long name.</entry>
+                            </row>
+                            <row>
+                                <entry>/c</entry>
+                                <entry>Displays the thousand separator in file sizes. This is the
+                                    default behavior. Use <b>/-c</b> to hide separators.</entry>
+                            </row>
+                            <row>
+                                <entry>/4</entry>
+                                <entry>Displays years in four-digit format.</entry>
+                            </row>
+                            <row>
+                                <entry>/r</entry>
+                                <entry>Display alternate data streams of the file.</entry>
+                            </row>
+                            <row>
+                                <entry>/?</entry>
+                                <entry>Displays help at the command prompt.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section id="section_txr_wh3_t1c">
+            <title>Remarks</title>
+            <p>
+                <ul id="ul_vxp_xh3_t1c">
+                    <li>
+                        <p>To use multiple <i>filename</i> parameters, separate each file name with
+                            a space, comma, or semicolon.</p>
+                    </li>
+                    <li>
+                        <p>You can use wildcard characters (<b>*</b> or <b>?</b>), to represent one
+                            or more characters of a file name and to display a subset of files or
+                            subdirectories.</p>
+                    </li>
+                    <li>You can use the wildcard character, <b>*</b>, to substitute for any string
+                        of characters, for example:<ul id="ul_kpm_133_t1c">
+                            <li>
+                                <p><codeph>dir *.txt</codeph> lists all files in the current
+                                    directory with extensions that begin with .txt, such as .txt,
+                                    .txt1, .txt_old.</p>
+                            </li>
+                            <li>
+                                <p><codeph>dir read *.txt</codeph> lists all files in the current
+                                    directory that begin with read and with extensions that begin
+                                    with .txt, such as .txt, .txt1, or .txt_old.</p>
+                            </li>
+                            <li><codeph>dir read *.*</codeph> lists all files in the current
+                                directory that begin with read with any extension.</li>
+                        </ul><p>The asterisk wildcard always uses short file name mapping, so you
+                            might get unexpected results. For example, the following directory
+                            contains two files (t.txt2 and
+                            t97.txt):<codeblock id="codeblock_qpn_ck3_t1c" outputclass="language-cmd">C:\test>dir /x
+Volume in drive C has no label.
+Volume Serial Number is B86A-EF32
+
+Directory of C:\test
+
+11/30/2004  01:40 PM &lt;DIR>  .
+11/30/2004  01:40 PM &lt;DIR> ..
+11/30/2004  11:05 AM 0 T97B4~1.TXT t.txt2
+11/30/2004  01:16 PM 0 t97.txt</codeblock>You might expect that typing
+                                <codeph>dir t97\*</codeph> would return the file t97.txt. However,
+                            typing <codeph>dir t97\*</codeph> returns both files, because the
+                            asterisk wildcard matches the file t.txt2 to t97.txt by using its short
+                            name map <i>T97B4~1.TXT</i>. Similarly, typing <codeph>del
+                                t97\*</codeph> would delete both files.&#61480;</p></li>
+                    <li>You can use the question mark (?) as a substitute for a single character in
+                        a name. For example, typing <codeph>dir read???.txt</codeph> lists any files
+                        in the current directory with the .txt extension that begin with read and
+                        are followed by up to three characters. This includes Read.txt, Read1.txt,
+                        Read12.txt, Read123.txt, and Readme1.txt, but not Readme12.txt.</li>
+                    <li>If you use <b>/a</b> with more than one value in <i>attributes</i>, this
+                        command displays the names of only those files with all the specified
+                        attributes. For example, if you use <b>/a</b> with <b>r</b> and <b>-h</b> as
+                        attributes (by using either <codeph>/a:r-h</codeph> or
+                            <codeph>/ar-h</codeph>), this command will only display the names of the
+                        read-only files that aren't hidden.</li>
+                    <li>If you use the redirection symbol (<codeph>></codeph>) to send this
+                        command's output to a file, or if you use a pipe (<codeph>|</codeph>) to
+                        send this command's output to another command, you must use
+                            <codeph>/a:-d</codeph> and <b>/b</b> to only list the file names. You
+                        can use <i>filename</i> with <b>/b</b> and <b>/s</b> to specify that this
+                        command is to search the current directory and its subdirectories for all
+                        file names that match <i>filename</i>. This command lists only the drive
+                        letter, directory name, file name, and file name extension (one path per
+                        line), for each file name it finds. Before you use a pipe to send this
+                        command's output to another command, you should set the <i>TEMP</i>
+                        environment variable in your Autoexec.nt file.</li>
+                </ul>
+            </p>
+        </section>
+        <section id="section_c4l_1y3_t1c">
+            <title>Examples</title>
+            <p>To display all directories one after the other, in alphabetical order, in wide
+                format, and pausing after each screen, make sure that the root directory is the
+                current directory, and then type:</p>
+            <codeblock id="codeblock_hrb_ky3_t1c" outputclass="language-cmd">dir /s/w/o/p</codeblock>
+            <p>The output lists the root directory, the subdirectories, and the files in the root
+                directory, including extensions. This command also lists the subdirectory names and
+                the file names in each subdirectory in the tree.</p>
+            <p>To alter the preceding example so that <b>dir</b> displays the file names and
+                extensions, but omits the directory names, type:</p>
+            <codeblock id="codeblock_zvk_4y3_t1c" outputclass="language-cmd">dir /s/w/o/p/a:-d</codeblock>
+            <p>To print a directory listing, type:</p>
+            <codeblock id="codeblock_v5s_qy3_t1c" outputclass="language-cmd">dir > prn</codeblock>
+            <p>When you specify <b>prn</b>, the directory list is sent to the printer that is
+                attached to the LPT1 port. If your printer is attached to a different port, you must
+                replace <b>prn</b> with the name of the correct port.</p>
+            <p>You can also redirect output of the <b>dir</b> command to a file by replacing
+                    <b>prn</b> with a file name. You can also type a path. For example, to direct
+                    <b>dir</b> output to the file dir.doc in the Records directory, type:</p>
+            <codeblock id="codeblock_ic3_5y3_t1c" outputclass="language-cmd">dir > \records\dir.doc</codeblock>
+            <p>If dir.doc does not exist, <b>dir</b> creates it, unless the <b>Records</b> directory
+                does not exist. In that case, the following message appears:</p>
+            <codeblock id="codeblock_qkk_vy3_t1c" outputclass="language-cmd">File creation error</codeblock>
+            <p>To display a list of all the file names with the .txt extension in all directories on
+                drive C, type:</p>
+            <codeblock id="codeblock_asw_xy3_t1c" outputclass="language-cmd">dir c:\*.txt /w/o/s/p</codeblock>
+            <p>The <b>dir</b> command displays, in wide format, an alphabetized list of the matching
+                file names in each directory, and it pauses each time the screen fills until you
+                press any key to continue.</p>
+        </section>
+    </refbody>
+</reference>

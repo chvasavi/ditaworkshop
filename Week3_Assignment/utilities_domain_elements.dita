@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="utilities_domain_elements">
+    <title>Utilities domain elements</title>
+    <shortdesc>The elements in the utilities domain each have a specific purpose in defining image
+        map properties.</shortdesc>
+    <conbody>
+        <dl id="dl_qsx_rpn_x1c">
+            <dlentry>
+                <dt>imagemap</dt>
+                <dd>client-side image map</dd>
+            </dlentry>
+        </dl>
+        <dl id="dl_dqw_tpn_x1c">
+            <dlentry>
+                <dt>area</dt>
+                <dd>hotspot area within an image map</dd>
+            </dlentry>
+        </dl>
+        <dl id="dl_prb_4qn_x1c">
+            <dlentry>
+                <dt>coords</dt>
+                <dd>co-ordinates of a hotspot area within an image map</dd>
+            </dlentry>
+        </dl>
+        <dl id="dl_spn_rqn_x1c">
+            <dlentry>
+                <dt>shape</dt>
+                <dd>shape of a hotspot area within an image map</dd>
+            </dlentry>
+        </dl>
+        <p>Below is the image inserted using the "imagemap" element:<imagemap
+                id="imagemap_dlj_ttn_x1c">
+                <image href="Image-PNG.png" id="image_elj_ttn_x1c" placement="break"/>
+                <area>
+                    <shape>rect</shape>
+                    <coords>50, 45, 238, 236</coords>
+                    <xref href="introduction_to_dita.dita" format="dita">Overview</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>254, 44, 444, 234</coords>
+                    <xref href="topic_elements.dita" format="dita">Click here for "Topic
+                        Elements"</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>51, 252, 240, 440</coords>
+                    <xref href="map_elements.dita" format="dita">Click here to understand map
+                        elements</xref>
+                </area>
+                <area>
+                    <shape>rect</shape>
+                    <coords>255, 252, 446, 437</coords>
+                    <xref href="prolog_elements.dita" format="dita">Click here to understand prolog
+                        elements</xref>
+                </area>
+            </imagemap></p>
+    </conbody>
+</concept>

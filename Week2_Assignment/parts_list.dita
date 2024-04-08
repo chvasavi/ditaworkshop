@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="parts_list">
+    <title>Parts List</title>
+    <shortdesc>A description of the individual parts and part numbers comprising the <ph
+            keyref="computer_name"/>
+        <ph keyref="peripheral_name"/></shortdesc>
+    <refbody>
+        <table frame="none" rowsep="1" colsep="0" id="table_ywz_ct2_x1c">
+            <tgroup cols="2" align="left">
+                <colspec colname="c1" colnum="1" rowsep="0" colwidth="1.13*"/>
+                <colspec colname="c2" colnum="2" align="center" rowsep="0" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry align="left" valign="middle">EXPANSION INTERFACE</entry>
+                        <entry align="left" valign="middle" colsep="0" rowsep="0">#</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Door, Mini-Disk</entry>
+                        <entry align="left">1400212</entry>
+                    </row>
+                    <row>
+                        <entry>Door, Line Printer</entry>
+                        <entry align="left">1400212</entry>
+                    </row>
+                    <row>
+                        <entry>Door, Screen Printer</entry>
+                        <entry align="left">1400216</entry>
+                    </row>
+                    <row>
+                        <entry>Door, Future Expansion Board</entry>
+                        <entry align="left">1400216</entry>
+                    </row>
+                    <row>
+                        <entry>Hood, Mini-Disk</entry>
+                        <entry align="left">1400213</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <section id="section_nfk_g52_x1c">
+            <p><ph keyref="company_name"/>
+                <ph keyref="computer_name"/><ph keyref="peripheral_name"/> : Operator's Manual | 1 -
+                Introduction | 4</p>
+        </section>
+        <table frame="none" rowsep="0" colsep="0" id="table_idw_352_x1c">
+            <tgroup cols="2" align="left">
+                <colspec colname="c1" colnum="1" colwidth="1.15*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*" align="center"/>
+                <thead>
+                    <row>
+                        <entry align="left" valign="middle" colsep="0" rowsep="0"><ph
+                                keyref="peripheral_name"/></entry>
+                        <entry align="left" valign="middle" colsep="0" rowsep="0">#</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Hood, Line Printer</entry>
+                        <entry align="left">1400213</entry>
+                    </row>
+                    <row>
+                        <entry>Hood, Screen Printer</entry>
+                        <entry align="left">1400218</entry>
+                    </row>
+                    <row>
+                        <entry>Hood, Future Expansion Board</entry>
+                        <entry align="left">1400218</entry>
+                    </row>
+                    <row>
+                        <entry>Hood, <ph keyref="computer_name"/> Microcomputer System</entry>
+                        <entry align="left"><ph id="ph_j5h_vfs_x1c">1400214</ph></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="none" rowsep="0" colsep="0" id="table_r44_lfs_x1c">
+            <tgroup cols="2" align="left">
+                <colspec colname="c1" colnum="1" colwidth="1.15*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry align="left" valign="middle" colsep="0" rowsep="0"><ph
+                                keyref="computer_name"> MICROCOMPUTER SYSTEM</ph></entry>
+                        <entry align="left" valign="middle" colsep="0" rowsep="0">#</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Door</entry>
+                        <entry><ph id="ph_uxs_vfs_x1c">1400083</ph></entry>
+                    </row>
+                    <row>
+                        <entry>Hood</entry>
+                        <entry><ph id="ph_wvx_vfs_x1c">1400217</ph></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

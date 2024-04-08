@@ -1,0 +1,8 @@
+1. In the topics: Map elements, Body elements, and Prolog elements, though the list items can be listed using <li> in a <ul>, 
+I have used <ul> tag intentionally for every list item to create space and appear as is in the Assignment. 
+
+2. Image map is not rendering properly in PDF.
+
+3. In the "Programming elements" topic, I haven't used a few tags in the right way as I'm unsure and couldn't find time to explore more on their usage as I'm occupied with my project deliverables. 
+   Please excuse.
+

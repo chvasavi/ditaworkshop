@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /E:\Vasavi Learnings\DITA XML\Week2_Assignment\temp\pdf-css-html5?><?workdir-uri file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Reference//EN?><?doctype-system reference.dtd?><reference xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="parts_list" ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic       reference/reference " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="reference:1;3:28" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="title:1;4:12">Parts List</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="shortdesc:1;5:16">A description of the individual parts and part numbers comprising the <ph keyref="computer_name" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:1;6:37">TRS-80</ph>
+        <ph keyref="peripheral_name" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:2;7:39">Expansion Interface</ph></shortdesc>
+    <refbody class="- topic/body        reference/refbody " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="refbody:1;8:14">
+        <table frame="none" rowsep="1" colsep="0" id="table_ywz_ct2_x1c" class="- topic/table " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="table:1;9:74">
+            <tgroup cols="2" align="left" class="- topic/tgroup " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="tgroup:1;10:43">
+                <colspec colname="col1" colnum="1" rowsep="0" colwidth="1.13*" class="- topic/colspec " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="colspec:1;11:79"/>
+                <colspec colname="col2" colnum="2" align="center" rowsep="0" colwidth="1*" class="- topic/colspec " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="colspec:2;12:91"/>
+                <thead class="- topic/thead " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="thead:1;13:24">
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:1;14:26">
+                        <entry align="left" valign="middle" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:1;15:61" colname="col1" dita-ot:x="1" dita-ot:y="1">EXPANSION INTERFACE</entry>
+                        <entry align="left" valign="middle" colsep="0" rowsep="0" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:2;16:83" colname="col2" dita-ot:x="2" dita-ot:y="1">#</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="tbody:1;19:24">
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:2;20:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:3;21:32" colname="col1" dita-ot:x="1" dita-ot:y="2">Door, Mini-Disk</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:4;22:45" colname="col2" dita-ot:x="2" dita-ot:y="2">1400212</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:3;24:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:5;25:32" colname="col1" dita-ot:x="1" dita-ot:y="3">Door, Line Printer</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:6;26:45" colname="col2" dita-ot:x="2" dita-ot:y="3">1400212</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:4;28:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:7;29:32" colname="col1" dita-ot:x="1" dita-ot:y="4">Door, Screen Printer</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:8;30:45" colname="col2" dita-ot:x="2" dita-ot:y="4">1400216</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:5;32:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:9;33:32" colname="col1" dita-ot:x="1" dita-ot:y="5">Door, Future Expansion Board</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:10;34:45" colname="col2" dita-ot:x="2" dita-ot:y="5">1400216</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:6;36:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:11;37:32" colname="col1" dita-ot:x="1" dita-ot:y="6">Hood, Mini-Disk</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:12;38:45" colname="col2" dita-ot:x="2" dita-ot:y="6">1400213</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <section id="section_nfk_g52_x1c" class="- topic/section " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="section:1;43:43">
+            <p class="- topic/p " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="p:1;44:16"><ph keyref="company_name" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:3;44:43">Radio Shack</ph>
+                <ph keyref="computer_name" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:4;45:45">TRS-80</ph><ph keyref="peripheral_name" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:5;45:75">Expansion Interface</ph> : Operator's Manual | 1 -
+                Introduction | 4</p>
+        </section>
+        <table frame="none" rowsep="0" colsep="0" id="table_idw_352_x1c" class="- topic/table " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="table:2;48:74">
+            <tgroup cols="2" align="left" class="- topic/tgroup " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="tgroup:2;49:43">
+                <colspec colname="col1" colnum="1" colwidth="1.15*" class="- topic/colspec " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="colspec:3;50:68"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" align="center" class="- topic/colspec " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="colspec:4;51:80"/>
+                <thead class="- topic/thead " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="thead:2;52:24">
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:7;53:26">
+                        <entry align="left" valign="middle" colsep="0" rowsep="0" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:13;54:83" colname="col1" dita-ot:x="1" dita-ot:y="1"><ph keyref="peripheral_name" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:6;55:59">Expansion Interface</ph></entry>
+                        <entry align="left" valign="middle" colsep="0" rowsep="0" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:14;56:83" colname="col2" dita-ot:x="2" dita-ot:y="1">#</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="tbody:2;59:24">
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:8;60:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:15;61:32" colname="col1" dita-ot:x="1" dita-ot:y="2">Hood, Line Printer</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:16;62:45" colname="col2" dita-ot:x="2" dita-ot:y="2">1400213</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:9;64:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:17;65:32" colname="col1" dita-ot:x="1" dita-ot:y="3">Hood, Screen Printer</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:18;66:45" colname="col2" dita-ot:x="2" dita-ot:y="3">1400218</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:10;68:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:19;69:32" colname="col1" dita-ot:x="1" dita-ot:y="4">Hood, Future Expansion Board</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:20;70:45" colname="col2" dita-ot:x="2" dita-ot:y="4">1400218</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:11;72:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:21;73:32" colname="col1" dita-ot:x="1" dita-ot:y="5">Hood, <ph keyref="computer_name" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:7;73:66">TRS-80</ph> Microcomputer System</entry>
+                        <entry align="left" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:22;74:45" colname="col2" dita-ot:x="2" dita-ot:y="5"><ph id="ph_j5h_vfs_x1c" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:8;74:69">1400214</ph></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="none" rowsep="0" colsep="0" id="table_r44_lfs_x1c" class="- topic/table " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="table:3;79:74">
+            <tgroup cols="2" align="left" class="- topic/tgroup " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="tgroup:3;80:43">
+                <colspec colname="col1" colnum="1" colwidth="1.15*" class="- topic/colspec " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="colspec:5;81:68"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" class="- topic/colspec " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="colspec:6;82:65"/>
+                <thead class="- topic/thead " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="thead:3;83:24">
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:12;84:26">
+                        <entry align="left" valign="middle" colsep="0" rowsep="0" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:23;85:83" colname="col1" dita-ot:x="1" dita-ot:y="1"><ph keyref="computer_name" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:9;86:56"> MICROCOMPUTER SYSTEM</ph></entry>
+                        <entry align="left" valign="middle" colsep="0" rowsep="0" class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:24;87:83" colname="col2" dita-ot:x="2" dita-ot:y="1">#</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="tbody:3;90:24">
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:13;91:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:25;92:32" colname="col1" dita-ot:x="1" dita-ot:y="2">Door</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:26;93:32" colname="col2" dita-ot:x="2" dita-ot:y="2"><ph id="ph_uxs_vfs_x1c" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:10;93:56">1400083</ph></entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="row:14;95:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:27;96:32" colname="col1" dita-ot:x="1" dita-ot:y="3">Hood</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="entry:28;97:32" colname="col2" dita-ot:x="2" dita-ot:y="3"><ph id="ph_wvx_vfs_x1c" class="- topic/ph " xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week2_Assignment/parts_list.dita" xtrc="ph:11;97:56">1400217</ph></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

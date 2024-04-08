@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="organization_of_dita_elements">
+    <title>Organization of <ph keyref="name"/> elements</title>
+    <shortdesc>Elements in <ph keyref="name"/> are grouped together into a number of categories for
+        organizational and comprehension purposes.</shortdesc>
+    <conbody>
+        <p><ph keyref="name"/> elements can be broadly categorized as follows:</p>
+        <ul id="ul_jt1_d1n_x1c">
+            <li>topic elements</li>
+            <li>map elements</li>
+            <li>body elements</li>
+            <li>prolog elements</li>
+            <li>domain elements</li>
+            <li>specialisation elements</li>
+        </ul>
+        <p>In fact, this is how the <i><ph keyref="name"/> Language Reference</i> groups <ph
+                keyref="name"/> elements. This categorization of the various elements is partly to
+            aid understanding, and partly to make it technically easier for the schema files (DTD
+            and XSD) to be managed.</p>
+        <p>Elements used within topics can also be differently categorized as block or phrase
+            elements.</p>
+    </conbody>
+</concept>

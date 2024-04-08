@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="programming_domain_elements">
+    <title>Programming domain elements</title>
+    <shortdesc>The elements in the programming domain each have a specific semantic
+        purpose.</shortdesc>
+    <conbody>
+        <p>Here is a list of elements, their semantic purposes, and an example for each.</p>
+        <dl>
+            <dlentry>
+                <dt>apiname</dt>
+                <dd>API name<p><ph keyref="Example"/><apiname>Google Maps</apiname></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>codeblock</dt>
+                <dd>code block<p><ph keyref="Example"
+                        /><codeblock id="codeblock_wf4_m14_x1c">dir /s/w/o/p/a:-d</codeblock></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>codeph</dt>
+                <dd>code phrase<p><ph keyref="Example"/>
+                        <codeph>dir read *.*</codeph>lists all files in the current directory that
+                        begin with read with any extension.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>option</dt>
+                <dd>one of a set of options<p><ph keyref="Example"/> Topic can be a concept, or a
+                        task, or a reference. Let's prefer <option>task</option> option
+                    here.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>parmname</dt>
+                <dd>parameter or argument<p><ph keyref="Example"/> Use the <parmname>env</parmname>
+                        parameter of the "config" command to update to update a field
+                    value.</p></dd>
+            </dlentry>
+            <dlentry id="dlentry_ewl_gtj_z1c">
+                <dt>parml</dt>
+                <dd>parameter list<p>
+                        <ph keyref="Example"/>
+                        <parml id="parml_ggv_xd4_x1c">
+                            <plentry>
+                                <pt>parameter_1</pt>
+                                <pd>This is the first parameter in the parameter list.</pd>
+                            </plentry>
+                            <plentry>
+                                <pt>parameter_2</pt>
+                                <pd>This is the second parameter in the parameter list.</pd>
+                            </plentry>
+                        </parml><ph keyref="Element_Ref"/><image placement="break"
+                            href="images/parml%20-%20sample.png" width="400" height="80"
+                            id="image_qfr_gyj_z1c"/></p></dd>
+            </dlentry>
+            <dlentry id="dlentry_nkw_gtj_z1c">
+                <dt>plentry</dt>
+                <dd>parameter list entry (within parml)<p><ph keyref="Example"/>
+                        <parml id="parml_cjs_zkj_z1c">
+                            <plentry>
+                                <pt>parameter_1</pt>
+                                <pd>This is a parameter entry.</pd>
+                            </plentry>
+                        </parml><ph keyref="Element_Ref"/><image placement="break"
+                            href="images/plentry%20-%20sample.png" width="300" height="50"
+                            id="image_qhb_l1k_z1c"/></p></dd>
+            </dlentry>
+            <dlentry id="dlentry_uc4_htj_z1c">
+                <dt>pt</dt>
+                <dd>parameter term (within plentry)<p><ph keyref="Example"/>
+                        <parml id="parml_j5z_2qj_z1c">
+                            <plentry>
+                                <pt>parameter_1</pt>
+                                <pd>This is the parameter term.</pd>
+                            </plentry>
+                        </parml><ph keyref="Element_Ref"/><image placement="break"
+                            href="images/pt%20-%20sample.png" width="360" height="50"
+                            id="image_bv5_g1k_z1c"/></p></dd>
+            </dlentry>
+            <dlentry id="dlentry_l4w_htj_z1c">
+                <dt>pd</dt>
+                <dd>parameter definition<p><ph keyref="Example"/>
+                        <parml id="parml_iwv_pxj_z1c">
+                            <plentry>
+                                <pt>paramter_1</pt>
+                                <pd>This is the parameter definition.</pd>
+                            </plentry>
+                        </parml><ph keyref="Element_Ref"/>
+                        <image placement="break" href="images/pd%20-%20sample.png" width="360"
+                            height="50" id="image_twd_zgk_z1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>synph</dt>
+                <dd>syntax phrase. It is used when a complete syntax diagram is not required, but
+                    some of the syntax elements, such as
+                        <codeph>&lt;kwd></codeph><codeph>&lt;oper></codeph><codeph>&lt;delim></codeph>
+                    are used within the text flow of the topic content.<p><ph keyref="Example"/>
+                        <synph><kwd>format</kwd><var>volumename</var></synph>
+                        <ph keyref="Element_Ref"/>
+                        <image placement="break" href="images/symph%20-%20sample.png" width="350"
+                            height="30" id="image_wrx_g3k_z1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>syntaxdiagram</dt>
+                <dd>syntax diagram<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_zdp_3jk_z1c">
+                            <title><b>This is the element container for syntax elements.</b></title>
+                        </syntaxdiagram>
+                        <ph keyref="Element_Ref"/><image placement="break"
+                            href="images/syntaxdiagram%20-%20sample.png" width="400" height="35"
+                            id="image_yym_kkk_z1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>groupseq</dt>
+                <dd>group of syntactic units (used only for syntax diagrams)<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_zbb_pkk_z1c">
+                            <groupseq>
+                                <title>Place your group of syntactic units here.</title>
+                            </groupseq>
+                        </syntaxdiagram>
+                        <ph keyref="Element_Ref"/><image placement="break"
+                            href="images/groupseq%20-%20sample.png" width="400" height="40"
+                            id="image_xfj_jlk_z1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>groupchoice</dt>
+                <dd>choice of a group of syntactic units (used only for syntax diagrams)<p><ph
+                            keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_cvn_wdl_z1c">
+                            <groupchoice>
+                                <var>var1 -<varname>name</varname></var>
+                            </groupchoice>
+                        </syntaxdiagram>
+                        <ph keyref="Element_Ref"/><image placement="break"
+                            href="images/groupchoice%20-%20sample.png" width="400" height="50"
+                            id="image_wln_t2l_z1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>groupcomp</dt>
+                <dd>group of composite syntactic units (used only for syntax diagrams)<p><ph
+                            keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_oky_1fl_z1c">
+                            <groupcomp>
+                                <var>v1</var>
+                            </groupcomp>
+                        </syntaxdiagram><ph keyref="Element_Ref"/>
+                        <image placement="break" href="images/groupcomp%20-%20sampl.png" width="350"
+                            height="30" id="image_ebk_tfl_z1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>fragment</dt>
+                <dd>fragment of syntax (used only for syntax diagrams)<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_q13_wfl_z1c">
+                            <fragment>
+                                <synnote>xyz</synnote>
+                            </fragment>
+                        </syntaxdiagram><ph keyref="Element_Ref"/>
+                        <image placement="break" href="images/fragment.png" width="400" height="25"
+                            id="image_rbt_lgl_z1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>fragref</dt>
+                <dd>cross-reference to a fragment of syntax diagram<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_rzh_jgl_z1c">
+                            <fragref>xyz</fragref>
+                        </syntaxdiagram><ph keyref="Element_Ref"/><image placement="break"
+                            href="images/fragref.png" width="330" height="30" id="image_dgb_1hl_z1c"
+                        /></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>synblk</dt>
+                <dd>block of small pieces of a syntax definition into a larger piece.<p><ph
+                            keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_a4b_dhl_z1c">
+                            <synblk>
+                                <groupchoice>
+                                    <var>v1<varname>variable_name</varname></var>
+                                </groupchoice>
+                            </synblk>
+                        </syntaxdiagram>
+                        <ph keyref="Element_Ref"/><image placement="break"
+                            href="images/synblk%20-%20sample.png" width="400" height="40"
+                            id="image_k4j_djl_z1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>synnote</dt>
+                <dd>footnote within syntax (syntax note). Use it to explain aspects of the syntax
+                    that cannot be expressed in the markup itself.<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_bs5_fjl_z1c">
+                            <synnote>My first syntax note</synnote>
+                        </syntaxdiagram><ph keyref="Element_Ref"/>
+                        <image placement="break" href="images/synnote.png" width="400" height="30"
+                            id="image_ggg_tjl_z1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>synnoteref</dt>
+                <dd>cross-reference to a syntax note<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_efz_wlr_z1c">
+                            <synnoteref
+                                href="#programming_domain_elements/syntaxdiagram_cvn_wdl_z1c"/>
+                        </syntaxdiagram>
+                        <ph keyref="Element_Ref"/>
+                        <image placement="break" href="images/synnoteref%20-%20sample.png"
+                            id="image_xbd_1mr_z1c"/>
+                    </p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>kwd</dt>
+                <dd>syntax keyword (used only for syntax diagrams)<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_y3j_cmr_z1c">
+                            <title>CopyFile</title>
+                            <groupseq>
+                                <kwd>COPYF</kwd>
+                            </groupseq>
+                        </syntaxdiagram><ph keyref="Element_Ref"/><image placement="break"
+                            href="images/kwd%20-%20sample.png" width="350" id="image_nbv_lxq_x1c"
+                            height="50"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>var</dt>
+                <dd>variable that a user must supply, such as their user name or password (used only
+                    for syntax diagrams)<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_mkn_mmr_z1c">
+                            <groupchoice>
+                                <var>input-filename</var>
+                            </groupchoice>
+                        </syntaxdiagram><ph keyref="Element_Ref"/>
+                        <image placement="break" href="var%20-%20image.png" width="400"
+                            id="image_l5s_jzq_x1c" height="30"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>oper</dt>
+                <dd>operator character (such as +, -, and =) within syntax<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_njl_pmr_z1c">
+                            <title>Adding</title>
+                            <groupseq>
+                                <var>1</var>
+                                <oper>+</oper>
+                                <var>2</var>
+                            </groupseq>
+                        </syntaxdiagram><ph keyref="Element_Ref"/><image placement="break"
+                            href="images/oper-sample.png" width="400" height="45"
+                            id="image_zqh_dnr_z1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>delim</dt>
+                <dd>delimiter characters (such as /, |, and ;) to mark the beginning or end of a
+                    section within a syntax diagram.<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_ubt_gnr_z1c">
+                            <groupseq>
+                                <var>one</var>
+                                <delim>|</delim>
+                                <var>two</var>
+                                <delim>|</delim>
+                                <var>three</var>
+                            </groupseq>
+                        </syntaxdiagram><ph keyref="Element_Ref"/><image placement="break"
+                            href="images/delim%20-%20sample.png" width="500" height="50"
+                            id="image_pq5_pbr_x1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>sep</dt>
+                <dd>seperator character within syntax<p><ph keyref="Example"/>
+                        <syntaxdiagram id="syntaxdiagram_yqz_lnr_z1c">
+                            <groupseq>
+                                <var>1</var>
+                                <oper>+</oper>
+                                <sep>(</sep>
+                                <var>2</var>
+                                <oper>*</oper>
+                                <var>3</var>
+                                <sep>)</sep>
+                                <delim>=</delim>
+                                <var>7</var>
+                            </groupseq>
+                        </syntaxdiagram><ph keyref="Element_Ref"/>
+                        <image placement="break" href="images/sep%20-%20sample.png" width="500"
+                            height="45" id="image_mrz_wcr_x1c"/></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>repsep</dt>
+                <dd>seperator character for repeated syntax elements<p><ph keyref="Example"/>
+                        <syntaxdiagram>
+                            <groupchoice>
+                                <repsep>,</repsep>
+                                <kwd>This</kwd>
+                                <kwd>That</kwd>
+                                <kwd>The other</kwd>
+                            </groupchoice>
+                        </syntaxdiagram><ph keyref="Element_Ref"/>
+                        <image placement="break" href="repsep%20-%20image.png" width="500"
+                            height="45" id="image_vfh_zdr_x1c"/></p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

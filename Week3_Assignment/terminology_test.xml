@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<incorrect-terms>
+	<incorrect-term ignorecase="true" severity="warning">
+		<match>user</match>
+		<suggestion>you</suggestion>
+		<message>Suggested using you instead of user.</message>
+	</incorrect-term>
+</incorrect-terms>

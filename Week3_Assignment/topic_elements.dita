@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="topic_elements">
+    <title>Topic elements</title>
+    <shortdesc>The <i>topic elements</i> are the basic structural building blocks of all information
+        types.</shortdesc>
+    <conbody>
+        <p>The topic elements are the main structural elements of topics. Some topic elements are
+            generic (i.e., inherited from the <i>topic</i> proto information type), while others are
+            specific to the concept, task or reference information types.</p>
+        <p>Examples of topic elements include:<ul id="ul_gx5_wcn_x1c">
+                <li>topic (and concept, task, reference)</li>
+                <li>titlealts</li>
+                <li>shortdesc</li>
+                <li>body (and refbody, conbody, taskbody)</li>
+                <li>section</li>
+                <li>example</li>
+                <li>related-links</li>
+            </ul></p>
+    </conbody>
+</concept>

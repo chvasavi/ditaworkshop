@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="software_domain_elements">
+    <title>Software domain elements</title>
+    <shortdesc>The elements in the software domain each have a specific semantic
+        purpose.</shortdesc>
+    <conbody>
+        <p>Below are the software domain elements, their semantic purposes, and an example for
+            each.</p>
+        <dl id="dl_ntp_ktr_x1c">
+            <dlentry>
+                <dt>msgph</dt>
+                <dd>message phrase<p><ph keyref="Example"/> Double-click <msgph>Setup.exe</msgph> to
+                        begin the installation process.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>msgblock</dt>
+                <dd>message block<p><ph keyref="Example"/>
+                        <msgblock id="msgblock_z31_rsr_z1c"><msgph>This action cannot be undone.</msgph> Are you sure you want to proceed?</msgblock></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>msgnum</dt>
+                <dd>message number<p><ph keyref="Example"/>
+                        <msgnum> 401</msgnum>: <msgph>Unauthorized Access</msgph>.<text>You don't
+                            have permission to access this resource.</text></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>cmdname</dt>
+                <dd>command name<p><ph keyref="Example"/> To compile the source code, use the
+                            <cmdname>javac</cmdname> following by the name of the Java source
+                        file.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>varname</dt>
+                <dd>variable (to be provided by user) name<p><ph keyref="Example"/> Use
+                            <varname>md</varname> command following the directory name to create a
+                        new directory.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>filepath</dt>
+                <dd>file name or path, or URI<p><ph keyref="Example"/> Uncompress the
+                            <filepath>gbbrsh.gz</filepath> file to the <filepath>/usr</filepath>
+                        directory.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>userinput</dt>
+                <dd>user input<p><ph keyref="Example"/> Instructions to install a software:<ol
+                            id="ol_oqw_kfs_z1c">
+                            <li>Open the terminal window.</li>
+                            <li>Type the following command: <userinput>sudo apt-get install
+                                    software-name</userinput>.</li>
+                            <li>Press Enter to execute the command.</li>
+                            <li>Follow the on-screen instructions to complete the installation.</li>
+                        </ol></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>systemoutput</dt>
+                <dd>system output<p><ph keyref="Example"/> To access the "sri" directory in the root
+                        directory, first type the command <userinput>cd..</userinput>. Use this
+                        command until you see this path: <filepath>C:\Users></filepath> (Root
+                        directory). Then, type the command <cmdname>cd sri</cmdname>, and hit
+                            <b>Enter</b> key. The system takes you to the directory:
+                            <systemoutput>C:\Users\sri></systemoutput>.</p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

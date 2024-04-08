@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="introduction_to_dita" path="introduction_to_dita.html"/>
+   <appContext helpID="organization_of_dita_elements"
+               path="organization_of_dita_elements.html"/>
+   <appContext helpID="topic_elements" path="topic_elements.html"/>
+   <appContext helpID="map_elements" path="map_elements.html"/>
+   <appContext helpID="body_elements" path="body_elements.html"/>
+   <appContext helpID="prolog_elements" path="prolog_elements.html"/>
+   <appContext helpID="domain_elements" path="domain_elements.html"/>
+   <appContext helpID="programming_domain_elements"
+               path="programming_domain_elements.html"/>
+   <appContext helpID="user_interface_domain_elements"
+               path="user_interface_domain_elements.html"/>
+   <appContext helpID="software_domain_elements" path="software_domain_elements.html"/>
+   <appContext helpID="utilities_domain_elements"
+               path="utilities_domain_elements.html"/>
+   <appContext helpID="metadata_domain_elements" path="metadata_domain_elements.html"/>
+   <appContext helpID="typographic_elements" path="typographic_elements.html"/>
+   <appContext helpID="introduction_to_dita" path="introduction_to_dita.html"/>
+   <appContext helpID="organization_of_dita_elements"
+               path="organization_of_dita_elements.html"/>
+   <appContext helpID="organization_of_dita_elements"
+               path="organization_of_dita_elements.html"/>
+   <appContext helpID="topic_elements" path="topic_elements.html"/>
+   <appContext helpID="map_elements" path="map_elements.html"/>
+   <appContext helpID="body_elements" path="body_elements.html"/>
+   <appContext helpID="prolog_elements" path="prolog_elements.html"/>
+   <appContext helpID="domain_elements" path="domain_elements.html"/>
+   <appContext helpID="topic_elements" path="topic_elements.html"/>
+   <appContext helpID="map_elements" path="map_elements.html"/>
+   <appContext helpID="body_elements" path="body_elements.html"/>
+   <appContext helpID="prolog_elements" path="prolog_elements.html"/>
+   <appContext helpID="domain_elements" path="domain_elements.html"/>
+   <appContext helpID="domain_elements" path="domain_elements.html"/>
+   <appContext helpID="programming_domain_elements"
+               path="programming_domain_elements.html"/>
+   <appContext helpID="user_interface_domain_elements"
+               path="user_interface_domain_elements.html"/>
+   <appContext helpID="software_domain_elements" path="software_domain_elements.html"/>
+   <appContext helpID="utilities_domain_elements"
+               path="utilities_domain_elements.html"/>
+   <appContext helpID="metadata_domain_elements" path="metadata_domain_elements.html"/>
+   <appContext helpID="typographic_elements" path="typographic_elements.html"/>
+</map>

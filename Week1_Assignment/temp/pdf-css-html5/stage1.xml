@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><map xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="map:1;3:6" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/week1.ditamap"><opentopic:map xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/week1.ditamap">Week1</title>
+    <topicref class="- map/topicref " first_topic_id="#unique_1" href="#unique_1" id="unique_1" ohref="cd_reference.dita" type="reference" xtrc="topicref:1;5:61" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/week1.ditamap"><topicmeta class="- map/topicmeta " data-topic-id="pencil_types"><resourceid appid="pencil_types" class="- topic/resourceid " oxy-source="topic"/><navtitle class="- topic/navtitle ">cd</navtitle><?ditaot gentext?><linktext class="- map/linktext ">cd</linktext><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows         Server 2012 R2, Windows Server 2012</shortdesc></topicmeta></topicref>
+    <topicref class="- map/topicref " first_topic_id="#unique_2" href="#unique_2" id="unique_2" ohref="dir_reference.dita" type="reference" xtrc="topicref:2;6:62" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/week1.ditamap"><topicmeta class="- map/topicmeta " data-topic-id="a1_reference_dir"><resourceid appid="a1_reference_dir" class="- topic/resourceid " oxy-source="topic"/><navtitle class="- topic/navtitle ">dir</navtitle><?ditaot gentext?><linktext class="- map/linktext ">dir</linktext><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
+</opentopic:map><reference class="- topic/topic       reference/reference " ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" id="unique_1" oid="pencil_types" specializations="@props/deliveryTarget" xtrc="reference:1;3:30" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd</title>
+    <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;5:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows
+        Server 2012 R2, Windows Server 2012</shortdesc>
+    <refbody class="- topic/body        reference/refbody " xtrc="refbody:1;7:14" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+        <section class="- topic/section " id="unique_1_Connect_42_section_db4_rbv_r1c" xtrc="section:1;8:43" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+            <p class="- topic/p " xtrc="p:1;9:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Displays the name of the current directory or changes the current directory. If used
+                with only a drive letter (for example, <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:1;10:64" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd C:</codeph>), <b class="+ topic/ph hi-d/b " xtrc="b:1;10:84" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd</b> displays
+                the names of the current directory in the specified drive. If used without
+                parameters, <b class="+ topic/ph hi-d/b " xtrc="b:2;12:32" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd</b> displays the current drive and directory.</p>
+            <note class="- topic/note " id="unique_1_Connect_42_note_hdx_cgv_r1c" type="note" xtrc="note:1;13:53" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">This command is the same as the "chdir"
+                command.</note>
+        </section>
+        <section class="- topic/section " id="unique_1_Connect_42_section_on5_ggv_r1c" xtrc="section:2;16:43" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+            <title class="- topic/title " xtrc="title:2;17:20" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Syntax</title>
+            <codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:1;18:51" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd [/d] [&lt;drive&gt;:][&lt;path&gt;]
+cd [..]
+chdir [/d] [&lt;drive&gt;:][&lt;path&gt;]
+chdir [..]</codeblock>
+        </section>
+        <section class="- topic/section " id="unique_1_Connect_42_section_jjx_23v_r1c" xtrc="section:3;23:43" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+            <title class="- topic/title " xtrc="title:3;24:20" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Parameters</title>
+            <p class="- topic/p " xtrc="p:2;25:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">The following tables lists the <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:2;25:55" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd</codeph> parameters.</p>
+            <table class="- topic/table " colsep="0" frame="all" id="unique_1_Connect_42_table_rck_w3v_r1c" rowsep="1" xtrc="table:1;26:77" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                <title class="- topic/title " xtrc="title:4;27:24" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd Parameters</title>
+                <tgroup align="left" class="- topic/tgroup " cols="2" xtrc="tgroup:1;28:47" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                    <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;29:82" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita"/>
+                    <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colwidth="4.96*" xtrc="colspec:2;30:85" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita"/>
+                    <thead class="- topic/thead " xtrc="thead:1;31:28" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                        <row class="- topic/row " xtrc="row:1;32:30" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;33:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Parameter</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;34:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Description</entry>
+                        </row>
+                    </thead>
+                    <tbody class="- topic/tbody " xtrc="tbody:1;37:28" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                        <row class="- topic/row " xtrc="row:2;38:30" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;39:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">/d</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;40:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Changes the current drive as well as the current directory for a
+                                drive.</entry>
+                        </row>
+                        <row class="- topic/row " xtrc="row:3;43:30" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;44:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita"><codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:3;44:44" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">&lt;drive&gt;:</codeph></entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;45:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Specifies the drive to display or change (if different from the
+                                current drive).</entry>
+                        </row>
+                        <row class="- topic/row " xtrc="row:4;48:30" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:7;49:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita"><codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:4;49:44" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">&lt;path&gt;</codeph></entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:8;50:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Specifies the path to the directory that you want to display or
+                                change.</entry>
+                        </row>
+                        <row class="- topic/row " xtrc="row:5;53:30" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:9;54:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">[..]</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:10;55:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Specifies that you want to change to the parent folder.</entry>
+                        </row>
+                        <row class="- topic/row " xtrc="row:6;57:30" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:11;58:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">/?</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:12;59:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Displays help at the command prompt.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section class="- topic/section " id="unique_1_Connect_42_section_nwv_ykv_r1c" xtrc="section:4;65:43" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+            <title class="- topic/title " xtrc="title:5;66:20" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Remarks</title>
+            <p class="- topic/p " xtrc="p:3;67:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">If command extensions are enabled, the following conditions apply to the <b class="+ topic/ph hi-d/b " xtrc="b:3;67:92" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd</b>
+                command: </p>
+            <ul class="- topic/ul " id="unique_1_Connect_42_ul_wpq_blv_r1c" xtrc="ul:1;69:37" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+                <li class="- topic/li " xtrc="li:1;70:21" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">The current directory string is converted to use the same case as the names on
+                    the disk. For example, <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:5;71:52" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd c:\temp</codeph> would set the current
+                    directory to C:\Temp if that is the case on the disk.</li>
+                <li class="- topic/li " xtrc="li:2;73:21" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Spaces aren't treated as delimiters, so <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:6;73:69" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">&lt;path&gt;</codeph> can contain
+                    spaces without enclosing quotation marks. For
+                        example:<codeblock class="+ topic/pre pr-d/codeblock " id="unique_1_Connect_42_codeblock_fqq_hlv_r1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:2;75:98" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd username\programs\start menu</codeblock><p class="- topic/p " xtrc="p:4;75:144" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">is
+                        the same
+                        as:</p><codeblock class="+ topic/pre pr-d/codeblock " id="unique_1_Connect_42_codeblock_n3n_jlv_r1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:3;77:97" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd "username\programs\start menu"</codeblock><p class="- topic/p " xtrc="p:5;77:145" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">If
+                        extensions are disabled, the quotation marks are required. </p></li>
+                <li class="- topic/li " xtrc="li:3;79:21" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">To disable command extensions,
+                    type:<codeblock class="+ topic/pre pr-d/codeblock " id="unique_1_Connect_42_codeblock_thg_slv_r1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:4;80:91" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cmd /e:off</codeblock></li>
+            </ul>
+        </section>
+        <section class="- topic/section " id="unique_1_Connect_42_section_zjw_y2y_z1c" xtrc="section:5;83:43" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">
+            <title class="- topic/title " xtrc="title:6;84:20" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">Examples</title>
+            <p class="- topic/p " xtrc="p:6;85:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">To return to the root directory, the top of the directory hierarchy for a drive:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock " id="unique_1_Connect_42_codeblock_kcq_1fy_z1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:5;86:78" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd\</codeblock>
+            <p class="- topic/p " xtrc="p:7;87:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">To change the default directory on a drive that is different from the one you are
+                on:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock " id="unique_1_Connect_42_codeblock_nk3_dfy_z1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:6;89:78" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd [&lt;drive&gt;:[&lt;directory&gt;]]</codeblock>
+            <p class="- topic/p " xtrc="p:8;90:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">To verify the change to the directory, type:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock " id="unique_1_Connect_42_codeblock_xfw_2fy_z1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:7;91:78" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/cd_reference.dita">cd [&lt;drive&gt;:]</codeblock>
+        </section>
+    </refbody>
+</reference><reference class="- topic/topic       reference/reference " ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" id="unique_2" oid="a1_reference_dir" specializations="@props/deliveryTarget" xtrc="reference:1;3:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir</title>
+    <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;5:17" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"/>
+    <refbody class="- topic/body        reference/refbody " xtrc="refbody:1;6:14" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+        <section class="- topic/section " id="unique_2_Connect_42_section_qyj_mzg_t1c" xtrc="section:1;7:43" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+            <p class="- topic/p " xtrc="p:1;8:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays a list of a directory's files and subdirectories. If used without
+                parameters, this command displays the disk's volume label and serial number,
+                followed by a list of directories and files on the disk (including their names and
+                the date and time each was last modified). For files, this command displays the name
+                extension and the size in bytes. This command also displays the total number of
+                files and directories listed, their cumulative size, and the free space (in bytes)
+                remaining on the disk.</p>
+            <p class="- topic/p " xtrc="p:2;15:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">The <b class="+ topic/ph hi-d/b " xtrc="b:1;15:23" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir</b> command can also run from the Windows Recovery Console, using
+                different parameters. For more information, see <xref class="- topic/xref " format="html" href="https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference" scope="external" xtrc="xref:1;16:242" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><?ditaot usertext?>Windows Recovery Environment (WinRE)</xref>.</p>
+        </section>
+        <section class="- topic/section " id="unique_2_Connect_42_section_fys_nzg_t1c" xtrc="section:2;18:43" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+            <title class="- topic/title " xtrc="title:2;19:20" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Syntax</title>
+            <codeblock class="+ topic/pre pr-d/codeblock " id="unique_2_Connect_42_codeblock_czp_f1h_t1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:1;20:78" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir [&lt;drive&gt;:][&lt;path&gt;][&lt;filename&gt;] [...] [/p] [/q] [/w] [/d] [/a[[:]&lt;attributes&gt;]][/o[[:]&lt;sortorder&gt;]] [/t[[:]&lt;timefield&gt;]] [/s] [/b] [/l] [/n] [/x] [/c] [/4] [/r]</codeblock>
+        </section>
+        <section class="- topic/section " id="unique_2_Connect_42_section_ag2_21h_t1c" xtrc="section:3;22:43" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+            <title class="- topic/title " xtrc="title:3;23:20" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Parameters</title>
+            <p class="- topic/p " xtrc="p:3;24:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                <table class="- topic/table " colsep="0" frame="all" id="unique_2_Connect_42_table_ljr_cbh_t1c" rowsep="1" xtrc="table:1;25:81" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                    <tgroup align="left" class="- topic/tgroup " cols="2" xtrc="tgroup:1;26:51" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                        <colspec align="left" class="- topic/colspec " colname="col1" colnum="1" colsep="0" colwidth="1*" rowsep="1" xtrc="colspec:1;28:41" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"/>
+                        <colspec align="left" class="- topic/colspec " colname="col2" colnum="2" colsep="0" colwidth="3.79*" rowsep="1" xtrc="colspec:2;30:41" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"/>
+                        <thead class="- topic/thead " xtrc="thead:1;31:32" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                            <row class="- topic/row " rowsep="1" xtrc="row:1;32:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry align="left" class="- topic/entry " colname="col1" colsep="0" dita-ot:x="1" dita-ot:y="1" rowsep="1" valign="middle" xtrc="entry:1;34:38" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Parameter</entry>
+                                <entry align="left" class="- topic/entry " colname="col2" colsep="0" dita-ot:x="2" dita-ot:y="1" rowsep="1" valign="middle" xtrc="entry:2;36:38" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Description</entry>
+                            </row>
+                        </thead>
+                        <tbody class="- topic/tbody " xtrc="tbody:1;39:32" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                            <row class="- topic/row " valign="top" xtrc="row:2;40:47" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;41:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                    <p class="- topic/p " xtrc="p:4;42:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><codeph class="+ topic/ph pr-d/codeph " id="unique_2_Connect_42_codeblock_ggt_15h_t1c" xtrc="codeph:1;43:46" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">[&lt;drive&gt;:]</codeph><codeph class="+ topic/ph pr-d/codeph " id="unique_2_Connect_42_codeblock_omy_b5h_t1c" xtrc="codeph:2;44:72" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">[&lt;path&gt;]</codeph></p>
+                                </entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;46:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Specifies the drive and directory for which you want to see a
+                                    listing.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:3;49:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;50:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:3;50:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">[&lt;filename&gt;]</codeph></entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;51:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Specifies a particular file or group of files for which you
+                                    want to see a listing.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:4;54:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:7;55:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/p</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:8;56:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays one screen of the listing at a time. To see the next
+                                    screen, press any key.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:5;59:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:9;60:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/q</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:10;61:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays file ownership information.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:6;63:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:11;64:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/w</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:12;65:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays the listing in wide format, with as many as five
+                                    file names or directory names on each line.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:7;68:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:13;69:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/d</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:14;70:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays the listing in the same format as <b class="+ topic/ph hi-d/b " xtrc="b:2;70:86" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/w</b>, but the
+                                    files are sorted by column.</entry>
+                            </row>
+                            <row class="- topic/row " valign="top" xtrc="row:8;73:47" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:15;74:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/a[[:]<codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:4;74:54" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">&lt;attributes&gt;</codeph>]</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8" xtrc="entry:16;75:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays only the names of those directories and files with
+                                    your specified attributes. If you don't use this parameter, the
+                                    command displays the names of all files except hidden and system
+                                    files. If you use this parameter without specifying any
+                                        <i class="+ topic/ph hi-d/i " xtrc="i:1;79:44" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">attributes</i>, the command displays the names of all
+                                    files, including hidden and system files. The list of possible
+                                        <i class="+ topic/ph hi-d/i " xtrc="i:2;81:44" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">attributes</i> values are:<ul class="- topic/ul " id="unique_2_Connect_42_ul_h5w_gf3_t1c" xtrc="ul:1;81:94" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                        <li class="- topic/li " xtrc="li:1;82:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:3;82:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">d</b> - Directories</li>
+                                        <li class="- topic/li " xtrc="li:2;83:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:4;83:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">h </b> - Hidden files</li>
+                                        <li class="- topic/li " xtrc="li:3;84:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:5;84:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">s</b> - System files</li>
+                                        <li class="- topic/li " xtrc="li:4;85:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:6;85:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">l </b>- Reparse points</li>
+                                        <li class="- topic/li " xtrc="li:5;86:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:7;86:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">r</b> - Read-only files</li>
+                                        <li class="- topic/li " xtrc="li:6;87:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:8;87:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">a</b> - Files ready for archiving</li>
+                                        <li class="- topic/li " xtrc="li:7;88:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:9;88:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">i</b> - Not content indexed files</li>
+                                    </ul><p class="- topic/p " xtrc="p:5;89:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">You can use any combination of these values, but don't
+                                        separate your values using spaces. Optionally you can use a
+                                        colon (:) separator, or you can use a hyphen (-) as a prefix
+                                        to mean, "not". For example, using the <b class="+ topic/ph hi-d/b " xtrc="b:10;92:83" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">-s</b> attribute
+                                        won't show the system files.</p></entry>
+                            </row>
+                            <row class="- topic/row " valign="top" xtrc="row:9;95:47" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9" xtrc="entry:17;96:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/o[[:]<codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:5;96:54" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">&lt;sortorder&gt;</codeph>]</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9" xtrc="entry:18;97:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Sorts the output according to <i class="+ topic/ph hi-d/i " xtrc="i:3;97:73" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">sortorder</i>, which can be
+                                    any combination of the following values:<ul class="- topic/ul " id="unique_2_Connect_42_ul_rj1_tg3_t1c" xtrc="ul:2;98:101" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                        <li class="- topic/li " xtrc="li:8;99:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:11;99:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">n</b> - Alphabetically by name</li>
+                                        <li class="- topic/li " xtrc="li:9;100:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:12;100:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">e</b> - Alphabetically by extension</li>
+                                        <li class="- topic/li " xtrc="li:10;101:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:13;101:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">g</b> - Group directories first</li>
+                                        <li class="- topic/li " xtrc="li:11;102:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:14;102:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">s </b>- By size, smallest first</li>
+                                        <li class="- topic/li " xtrc="li:12;103:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:15;103:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">d</b> - By date/time, oldest first</li>
+                                        <li class="- topic/li " xtrc="li:13;104:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Use the - prefix to reverse the sort order</li>
+                                    </ul>Multiple values are processed in the order in which you
+                                    list them. Don't separate multiple values with spaces, but you
+                                    can optionally use a colon (:).<p class="- topic/p " xtrc="p:6;107:71" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">If <i class="+ topic/ph hi-d/i " xtrc="i:4;107:77" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">sortorder</i> isn't
+                                        specified, <b class="+ topic/ph hi-d/b " xtrc="b:16;108:55" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir /o</b> lists the directories
+                                        alphabetically, followed by the files, which are also sorted
+                                        alphabetically.</p></entry>
+                            </row>
+                            <row class="- topic/row " rowsep="1" valign="top" xtrc="row:10;112:58" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="10" xtrc="entry:19;113:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/t[[:]<codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:6;113:54" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">&lt;timefield&gt;</codeph>]</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="10" xtrc="entry:20;114:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Specifies which time field to display or to use for sorting.
+                                    The available <i class="+ topic/ph hi-d/i " xtrc="i:5;115:54" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">timefield</i> values are:<ul class="- topic/ul " id="unique_2_Connect_42_ul_ynx_gh3_t1c" xtrc="ul:3;116:61" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                        <li class="- topic/li " xtrc="li:14;117:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:17;117:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">c</b> - Creation</li>
+                                        <li class="- topic/li " xtrc="li:15;118:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:18;118:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">a</b> - Last accessed</li>
+                                        <li class="- topic/li " xtrc="li:16;119:45" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><b class="+ topic/ph hi-d/b " xtrc="b:19;119:48" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">w</b> - Last written</li>
+                                    </ul></entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:11;122:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="11" xtrc="entry:21;123:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/s</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="11" xtrc="entry:22;124:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Lists every occurrence of the specified file name within the
+                                    specified directory and all subdirectories.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:12;127:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="12" xtrc="entry:23;128:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/b</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="12" xtrc="entry:24;129:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays a bare list of directories and files, with no
+                                    additional information. The <b class="+ topic/ph hi-d/b " xtrc="b:20;130:68" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/b</b> parameter overrides
+                                        <b class="+ topic/ph hi-d/b " xtrc="b:21;131:44" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/w</b>.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:13;133:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="13" xtrc="entry:25;134:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/l</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="13" xtrc="entry:26;135:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays unsorted directory names and file names, using
+                                    lowercase.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:14;138:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="14" xtrc="entry:27;139:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/n</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="14" xtrc="entry:28;140:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays a long list format with file names on the far right
+                                    of the screen.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:15;143:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="15" xtrc="entry:29;144:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/x</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="15" xtrc="entry:30;145:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays the short names generated for non-8dot3 file names.
+                                    The display is the same as the display for <b class="+ topic/ph hi-d/b " xtrc="b:22;146:83" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/n</b>, but the
+                                    short name is inserted before the long name.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:16;149:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="16" xtrc="entry:31;150:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/c</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="16" xtrc="entry:32;151:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays the thousand separator in file sizes. This is the
+                                    default behavior. Use <b class="+ topic/ph hi-d/b " xtrc="b:23;152:62" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/-c</b> to hide separators.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:17;154:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="17" xtrc="entry:33;155:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/4</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="17" xtrc="entry:34;156:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays years in four-digit format.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:18;158:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="18" xtrc="entry:35;159:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/r</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="18" xtrc="entry:36;160:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Display alternate data streams of the file.</entry>
+                            </row>
+                            <row class="- topic/row " xtrc="row:19;162:34" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="19" xtrc="entry:37;163:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/?</entry>
+                                <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="19" xtrc="entry:38;164:40" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Displays help at the command prompt.</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+        <section class="- topic/section " id="unique_2_Connect_42_section_txr_wh3_t1c" xtrc="section:4;171:43" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+            <title class="- topic/title " xtrc="title:4;172:20" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Remarks</title>
+            <p class="- topic/p " xtrc="p:7;173:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                <ul class="- topic/ul " id="unique_2_Connect_42_ul_vxp_xh3_t1c" xtrc="ul:4;174:41" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                    <li class="- topic/li " xtrc="li:17;175:25" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                        <p class="- topic/p " xtrc="p:8;176:28" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">To use multiple <i class="+ topic/ph hi-d/i " xtrc="i:6;176:47" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">filename</i> parameters, separate each file name with
+                            a space, comma, or semicolon.</p>
+                    </li>
+                    <li class="- topic/li " xtrc="li:18;179:25" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                        <p class="- topic/p " xtrc="p:9;180:28" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">You can use wildcard characters (<b class="+ topic/ph hi-d/b " xtrc="b:24;180:64" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">*</b> or <b class="+ topic/ph hi-d/b " xtrc="b:25;180:76" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">?</b>), to represent one
+                            or more characters of a file name and to display a subset of files or
+                            subdirectories.</p>
+                    </li>
+                    <li class="- topic/li " xtrc="li:19;184:25" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">You can use the wildcard character, <b class="+ topic/ph hi-d/b " xtrc="b:26;184:64" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">*</b>, to substitute for any string
+                        of characters, for example:<ul class="- topic/ul " id="unique_2_Connect_42_ul_kpm_133_t1c" xtrc="ul:5;185:76" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                            <li class="- topic/li " xtrc="li:20;186:33" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <p class="- topic/p " xtrc="p:10;187:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:7;187:44" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir *.txt</codeph> lists all files in the current
+                                    directory with extensions that begin with .txt, such as .txt,
+                                    .txt1, .txt_old.</p>
+                            </li>
+                            <li class="- topic/li " xtrc="li:21;191:33" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+                                <p class="- topic/p " xtrc="p:11;192:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:8;192:44" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir read *.txt</codeph> lists all files in the current
+                                    directory that begin with read and with extensions that begin
+                                    with .txt, such as .txt, .txt1, or .txt_old.</p>
+                            </li>
+                            <li class="- topic/li " xtrc="li:22;196:33" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita"><codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:9;196:41" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir read *.*</codeph> lists all files in the current
+                                directory that begin with read with any extension.</li>
+                        </ul><p class="- topic/p " xtrc="p:12;198:33" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">The asterisk wildcard always uses short file name mapping, so you
+                            might get unexpected results. For example, the following directory
+                            contains two files (t.txt2 and
+                            t97.txt):<codeblock class="+ topic/pre pr-d/codeblock " id="unique_2_Connect_42_codeblock_qpn_ck3_t1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:2;201:103" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">C:\test&gt;dir /x
+Volume in drive C has no label.
+Volume Serial Number is B86A-EF32
+
+Directory of C:\test
+
+11/30/2004  01:40 PM &lt;DIR&gt;  .
+11/30/2004  01:40 PM &lt;DIR&gt; ..
+11/30/2004  11:05 AM 0 T97B4~1.TXT t.txt2
+11/30/2004  01:16 PM 0 t97.txt</codeblock>You might expect that typing
+                                <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:10;211:41" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir t97\*</codeph> would return the file t97.txt. However,
+                            typing <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:11;212:44" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir t97\*</codeph> returns both files, because the
+                            asterisk wildcard matches the file t.txt2 to t97.txt by using its short
+                            name map <i class="+ topic/ph hi-d/i " xtrc="i:7;214:41" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">T97B4~1.TXT</i>. Similarly, typing <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:12;214:84" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">del
+                                t97\*</codeph> would delete both files.</p></li>
+                    <li class="- topic/li " xtrc="li:23;216:25" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">You can use the question mark (?) as a substitute for a single character in
+                        a name. For example, typing <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:13;217:61" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir read???.txt</codeph> lists any files
+                        in the current directory with the .txt extension that begin with read and
+                        are followed by up to three characters. This includes Read.txt, Read1.txt,
+                        Read12.txt, Read123.txt, and Readme1.txt, but not Readme12.txt.</li>
+                    <li class="- topic/li " xtrc="li:24;221:25" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">If you use <b class="+ topic/ph hi-d/b " xtrc="b:27;221:39" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/a</b> with more than one value in <i class="+ topic/ph hi-d/i " xtrc="i:8;221:77" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">attributes</i>, this
+                        command displays the names of only those files with all the specified
+                        attributes. For example, if you use <b class="+ topic/ph hi-d/b " xtrc="b:28;223:64" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/a</b> with <b class="+ topic/ph hi-d/b " xtrc="b:29;223:79" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">r</b> and <b class="+ topic/ph hi-d/b " xtrc="b:30;223:92" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">-h</b> as
+                        attributes (by using either <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:14;224:61" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/a:r-h</codeph> or
+                            <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:15;225:37" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/ar-h</codeph>), this command will only display the names of the
+                        read-only files that aren't hidden.</li>
+                    <li class="- topic/li " xtrc="li:25;227:25" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">If you use the redirection symbol (<codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:16;227:68" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">&gt;</codeph>) to send this
+                        command's output to a file, or if you use a pipe (<codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:17;228:83" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">|</codeph>) to
+                        send this command's output to another command, you must use
+                            <codeph class="+ topic/ph pr-d/codeph " xtrc="codeph:18;230:37" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/a:-d</codeph> and <b class="+ topic/ph hi-d/b " xtrc="b:31;230:59" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/b</b> to only list the file names. You
+                        can use <i class="+ topic/ph hi-d/i " xtrc="i:9;231:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">filename</i> with <b class="+ topic/ph hi-d/b " xtrc="b:32;231:57" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/b</b> and <b class="+ topic/ph hi-d/b " xtrc="b:33;231:71" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">/s</b> to specify that this
+                        command is to search the current directory and its subdirectories for all
+                        file names that match <i class="+ topic/ph hi-d/i " xtrc="i:10;233:50" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">filename</i>. This command lists only the drive
+                        letter, directory name, file name, and file name extension (one path per
+                        line), for each file name it finds. Before you use a pipe to send this
+                        command's output to another command, you should set the <i class="+ topic/ph hi-d/i " xtrc="i:11;236:84" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">TEMP</i>
+                        environment variable in your Autoexec.nt file.</li>
+                </ul>
+            </p>
+        </section>
+        <section class="- topic/section " id="unique_2_Connect_42_section_c4l_1y3_t1c" xtrc="section:5;241:43" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">
+            <title class="- topic/title " xtrc="title:5;242:20" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Examples</title>
+            <p class="- topic/p " xtrc="p:13;243:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">To display all directories one after the other, in alphabetical order, in wide
+                format, and pausing after each screen, make sure that the root directory is the
+                current directory, and then type:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock " id="unique_2_Connect_42_codeblock_hrb_ky3_t1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:3;246:78" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir /s/w/o/p</codeblock>
+            <p class="- topic/p " xtrc="p:14;247:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">The output lists the root directory, the subdirectories, and the files in the root
+                directory, including extensions. This command also lists the subdirectory names and
+                the file names in each subdirectory in the tree.</p>
+            <p class="- topic/p " xtrc="p:15;250:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">To alter the preceding example so that <b class="+ topic/ph hi-d/b " xtrc="b:34;250:58" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir</b> displays the file names and
+                extensions, but omits the directory names, type:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock " id="unique_2_Connect_42_codeblock_zvk_4y3_t1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:4;252:78" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir /s/w/o/p/a:-d</codeblock>
+            <p class="- topic/p " xtrc="p:16;253:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">To print a directory listing, type:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock " id="unique_2_Connect_42_codeblock_v5s_qy3_t1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:5;254:78" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir &gt; prn</codeblock>
+            <p class="- topic/p " xtrc="p:17;255:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">When you specify <b class="+ topic/ph hi-d/b " xtrc="b:35;255:36" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">prn</b>, the directory list is sent to the printer that is
+                attached to the LPT1 port. If your printer is attached to a different port, you must
+                replace <b class="+ topic/ph hi-d/b " xtrc="b:36;257:28" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">prn</b> with the name of the correct port.</p>
+            <p class="- topic/p " xtrc="p:18;258:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">You can also redirect output of the <b class="+ topic/ph hi-d/b " xtrc="b:37;258:55" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir</b> command to a file by replacing
+                    <b class="+ topic/ph hi-d/b " xtrc="b:38;259:24" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">prn</b> with a file name. You can also type a path. For example, to direct
+                    <b class="+ topic/ph hi-d/b " xtrc="b:39;260:24" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir</b> output to the file dir.doc in the Records directory, type:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock " id="unique_2_Connect_42_codeblock_ic3_5y3_t1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:6;261:78" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir &gt; \records\dir.doc</codeblock>
+            <p class="- topic/p " xtrc="p:19;262:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">If dir.doc does not exist, <b class="+ topic/ph hi-d/b " xtrc="b:40;262:46" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir</b> creates it, unless the <b class="+ topic/ph hi-d/b " xtrc="b:41;262:80" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">Records</b> directory
+                does not exist. In that case, the following message appears:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock " id="unique_2_Connect_42_codeblock_qkk_vy3_t1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:7;264:78" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">File creation error</codeblock>
+            <p class="- topic/p " xtrc="p:20;265:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">To display a list of all the file names with the .txt extension in all directories on
+                drive C, type:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock " id="unique_2_Connect_42_codeblock_asw_xy3_t1c" outputclass="language-cmd" xml:space="preserve" xtrc="codeblock:8;267:78" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir c:\*.txt /w/o/s/p</codeblock>
+            <p class="- topic/p " xtrc="p:21;268:16" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">The <b class="+ topic/ph hi-d/b " xtrc="b:42;268:23" xtrf="file:/E:/Vasavi%20Learnings/DITA%20XML/Week1_Assignment/dir_reference.dita">dir</b> command displays, in wide format, an alphabetized list of the matching
+                file names in each directory, and it pauses each time the screen fills until you
+                press any key to continue.</p>
+        </section>
+    </refbody>
+</reference><opentopic-index:index.groups/></map>

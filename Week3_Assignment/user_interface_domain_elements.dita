@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="user_interface_domain_elements">
+    <title>User interface domain elements</title>
+    <shortdesc>The elements in the user interface domain each have a specific semantic purpose. </shortdesc>
+    <conbody>
+        <dl id="dl_q2x_f2r_x1c">
+            <dlentry>
+                <dt>uicontrol</dt>
+                <dd>user interface control element is used to mark up UI controls, such as button
+                    names, menu items, and other objects.<p><ph keyref="Example"/> Press the
+                            <uicontrol>Submit</uicontrol> (&lt;uicontrol>)button to submit your
+                        form.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>wintitle</dt>
+                <dd>window title<p><ph keyref="Example"/> The <wintitle>Configure Options</wintitle>
+                        window opens with your last set of selections highighted.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>menucascade</dt>
+                <dd>menu cascade<p><ph keyref="Example"/> To open the Notepad, navigate to <menucascade>
+                            <uicontrol>Start</uicontrol>
+                            <uicontrol> Programs </uicontrol>
+                            <uicontrol> Accessories</uicontrol>
+                            <uicontrol> Notepad</uicontrol>
+                        </menucascade></p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>shortcut</dt>
+                <dd>shortcut<p><ph keyref="Example"/> Navigate to <uicontrol>Start ></uicontrol>
+                        <uicontrol><shortcut>S</shortcut>ettings</uicontrol> to open the system
+                        settings.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>screen</dt>
+                <dd>character (text only) screen<p><ph keyref="Example"/>
+                        <screen id="screen_j5r_ypr_z1c">   File  Edit  Search  View  Options  Help
++--------------------------------- UNTITLED1 ----------------------------------+
+¦ C:\Users\Administrator>screen
+'screen' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>cmd window
+Microsoft Windows [Version 10.0.19045.4170]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator>cd..
+
+C:\Users>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 8888-9999
+
+ Directory of C:\Users
+
+03-08-2023  10:53    &lt;DIR>          .
+03-08-2023  10:53    &lt;DIR>          ..
+04-03-2023  15:46                 0 abd
+30-03-2024  12:42    &lt;DIR>          Administrator
+24-02-2023  18:48    &lt;DIR>          admin_86e45
+04-03-2023  16:15    &lt;DIR>          Public
+               1 File(s)              0 bytes
+               5 Dir(s)  23,563,603,968 bytes free                                                                             ¦
+¦                                                                              ¦
+¦                                                                              ¦
+¦                                                                              ¦
+¦  Line:1    Col:1  F1=Help                                                    ¦
++------------------------------------------------------------------------------+</screen></p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>
